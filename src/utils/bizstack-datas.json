@@ -1,0 +1,3368 @@
+{
+  "Bizstack": {
+    "-O83AQuMe3PJUCK5y0zq": {
+      "accounts": {
+        "0": {
+          "CustomerDetails": {
+            "Naresh": {
+              "Balance_Advance": "",
+              "Customer_Address": "123 Main Street",
+              "Customer_Email": "Naresh@gmail.com",
+              "Customer_Name": "Naresh",
+              "DateOfAnniversary": "2015-06-15",
+              "DateOfBirth": "1990-01-01",
+              "GST_in": "12345678",
+              "Gender": "Male",
+              "Last_Visited": "",
+              "Member_Since": "",
+              "MobileNumber": "1234567890",
+              "Notes": "Regular customer",
+              "Orders": "",
+              "Transaction_History": "[]"
+            }
+          },
+          "businessName": "Selvakumar",
+          "businessType": "Service",
+          "country": "USA",
+          "currency": "USD",
+          "decimal_places": 2,
+          "featuresInterested": [
+            "Inventory Management",
+            "Sales Tracking"
+          ],
+          "mobileNo": "1234567890",
+          "number_system": "decimal",
+          "region_name": "Downtown",
+          "timezone": "GMT-5",
+          "username": "Selvakumar "
+        },
+        "currency": "USD",
+        "decimal_places": 2,
+        "mobile-no": "1234567890",
+        "number_system": "decimal",
+        "region_name": "Downtown"
+      },
+      "email": "selvakumarpr1305@gmail.com",
+      "username": "Selvakumar "
+    },
+    "-O84qACw7mVJ7KU0whCo": {
+      "accounts": {
+        "0": {
+          "businessName": "xyz",
+          "businessType": "Retail",
+          "country": "",
+          "currency": "",
+          "decimal_places": "",
+          "featuresInterested": "[I want generate bills, I want print bills, I want to track daily sales, I want to track profits, I want to track inventory, I want to track expense, I want to track staff attendance]",
+          "mobileNo": "+911234564890",
+          "number_system": "",
+          "region_name": "INDIA",
+          "timezone": "",
+          "username": "oewJasmin@123"
+        },
+        "business-name": "xyz",
+        "country": "USA",
+        "currency": "USD",
+        "decimal_places": 2,
+        "f-interested": [
+          "Inventory Management",
+          "Sales Tracking"
+        ],
+        "mobile-no": "1234567890",
+        "number_system": "decimal",
+        "region_name": "Downtown",
+        "timezone": "GMT-5"
+      },
+      "email": "karthick1031998@gmail.com",
+      "username": "hello"
+    },
+    "-O85uJy97N3gpt4S1rCg": {
+      "accounts": [
+        {
+          "Payslip_Management": [
+            {
+              "basePay": "1",
+              "baseSalary": "0.0",
+              "createdAt": "2025-02-16T19:29:36.286627",
+              "staffMobileNumber": "078504270",
+              "staffName": "CJ",
+              "timePeriod": "null to null"
+            },
+            {
+              "basePay": "0",
+              "baseSalary": "0.0",
+              "createdAt": "2025-02-19T16:46:40.672846",
+              "staffMobileNumber": "",
+              "staffName": "",
+              "timePeriod": "null to null"
+            },
+            {
+              "basePay": "1",
+              "baseSalary": "0.0",
+              "createdAt": "2025-02-23T14:09:47.189589",
+              "staffMobileNumber": "078504270",
+              "staffName": "CJ",
+              "timePeriod": "null to null"
+            }
+          ],
+          "ReceiptSettings": {
+            "BusinessAddress": "",
+            "BusinessAddressShowInReceipt": false,
+            "BusinessLogo": "",
+            "BusinessLogoShowInReceipt": false,
+            "MobileNumberShowInReceipt": false,
+            "OrderItemsBy": "",
+            "SelectWhatsappShareApp": "",
+            "ShowCashierNameOnReceipt": false,
+            "ShowChangeReturnAmountOnReceipt": false,
+            "ShowCustomerAddressOnReceipt": false,
+            "ShowCustomerPhoneNumberOnReceipt": false,
+            "ShowListPriceInReceipt": false,
+            "ShowPaymentDetailsOnReceipt": false,
+            "ShowPoweredByZobase": false,
+            "ShowTotalItemCountOnReceipt": false,
+            "ShowTotalMoneySavedByACustomer": false,
+            "ShowrateInReceipt": false,
+            "TaxNumber": "",
+            "TaxNumberShowInReceipt": false,
+            "ThankYouNote": "Thank you, visit Again",
+            "UseAppLanguage": false,
+            "Website": "",
+            "WebsiteShowInReceipt": false,
+            "mobileNumber": "",
+            "receiptTitle": "",
+            "totalBillAmount": ""
+          },
+          "Staff Management": {
+            "CJ": {
+              "Attendance": {
+                "2025-02-23": {
+                  "attendance_holiday": false,
+                  "attendance_leave": false,
+                  "attendance_notes": "",
+                  "attendance_overtime": "0",
+                  "attendance_overtime_amount": "",
+                  "attendance_overtime_hours": "",
+                  "attendance_status": "Present",
+                  "attendance_undertime": "0",
+                  "attendance_undertime_amount": "",
+                  "attendance_undertime_hours": "",
+                  "updated_at_last": "02:09 PM"
+                }
+              },
+              "add_expense": true,
+              "admin_receipt": false,
+              "allow_roles_permissions": true,
+              "allow_self_attendance": true,
+              "calculate_as_day": false,
+              "calculate_as_hourly": false,
+              "calculate_as_month": true,
+              "create_business": false,
+              "create_receipt": false,
+              "customer_admin": true,
+              "customer_create": true,
+              "customer_edit": true,
+              "customer_view": true,
+              "date_of_join": "",
+              "edit_receipt": true,
+              "item_management_admin": true,
+              "item_management_create": true,
+              "item_management_edit": true,
+              "item_management_view": true,
+              "manage_banners": true,
+              "manage_business": true,
+              "manage_settings": true,
+              "manage_sf_orders": true,
+              "modify_expense": false,
+              "publish_sf_items": true,
+              "report_admin": true,
+              "report_expired_stocks": true,
+              "report_low_stocks": true,
+              "report_payment_modes": true,
+              "report_profits": true,
+              "report_sales": true,
+              "report_soldby": true,
+              "report_top_customers": true,
+              "return_receipt": true,
+              "sales_addchargers": true,
+              "sales_addtax": true,
+              "sales_alltables": false,
+              "sales_discount": true,
+              "sales_free": true,
+              "sales_gift": true,
+              "sales_givecredit": true,
+              "self_attendance_selection": "Punch In/Out",
+              "sf_settings": false,
+              "shift_hour": "",
+              "staff_admin": false,
+              "staff_as_custom": false,
+              "staff_as_helper": false,
+              "staff_as_manager": true,
+              "staff_as_partner": false,
+              "staff_attendance_management": true,
+              "staff_email": "yijagitay90@yahoo.com",
+              "staff_manage": false,
+              "staff_mobilenumber": "078504270",
+              "staff_name": "CJ",
+              "staff_payroll_manager": false,
+              "staff_salary": "",
+              "track_attendance_salary_": true,
+              "view_all_receipt": true
+            }
+          },
+          "businessName": "CJBEM",
+          "businessType": "Retail",
+          "categories": {
+            "Fruit ": {
+              "color": "#FF4CAF50",
+              "imagelink": "null",
+              "shape": ""
+            },
+            "tex 1": {
+              "color": "",
+              "imagelink": "null",
+              "shape": ""
+            }
+          },
+          "country": "",
+          "currency": "",
+          "decimal_places": "",
+          "featuresInterested": "[I want generate bills, I want print bills, I want to track daily sales, I want to track profits, I want to track inventory, I want to track expense, I want to track staff attendance]",
+          "items": {
+            "Cipzo ": {
+              "category": "tex 1",
+              "item_color": "#FF444444",
+              "item_image": "",
+              "item_name": "Cipzo ",
+              "item_shape": "circle",
+              "kilogram": 0,
+              "sell_by_fraction": "Sell by Fraction",
+              "sell_by_unit": "Sell by Unit",
+              "selling_price": 50,
+              "simple": false,
+              "variants": {
+                "5kg": {
+                  "Auto_update": false,
+                  "Current_Stack": "10",
+                  "Purchase_price": "",
+                  "Recipe": false,
+                  "Transaction_history": [
+                    {
+                      "amount": 10,
+                      "dateAndTime": "16 Feb 2025-07:57 PM",
+                      "type": "Added",
+                      "userEmail": "chernohyayahjagitay@gmail.com",
+                      "username": "John"
+                    },
+                    {
+                      "amount": 0,
+                      "dateAndTime": "16 Feb 2025-09:09 PM",
+                      "type": "Removed",
+                      "userEmail": "example@gmail.com",
+                      "username": "John"
+                    }
+                  ],
+                  "Update_Stack": "10",
+                  "add_tax": false,
+                  "auto_update_stock": true,
+                  "bar_code": "",
+                  "expiry_date": "",
+                  "internal_notes": false,
+                  "internal_notes_string": "",
+                  "low_stock_alert": 0,
+                  "margin": "",
+                  "modifiers": false,
+                  "modifiers_value": 0,
+                  "preventItem": false,
+                  "selling_price": 50,
+                  "sku_bool": false,
+                  "sku_notes": "",
+                  "stockAvailable": "",
+                  "tags": false,
+                  "tax_inclusive": false,
+                  "tax_value": 0,
+                  "track_expiry": false,
+                  "track_profit": true,
+                  "variant_name": "5kg"
+                }
+              }
+            },
+            "Samsung ": {
+              "category": "tex 1",
+              "item_color": "#FF444444",
+              "item_image": "",
+              "item_name": "Samsung ",
+              "item_shape": "square",
+              "kilogram": 0,
+              "sell_by_fraction": "Sell by Fraction",
+              "sell_by_unit": "Sell by Unit",
+              "selling_price": 250,
+              "simple": false,
+              "variants": {
+                "blue ": {
+                  "Auto_update": false,
+                  "Current_Stack": "30",
+                  "Purchase_price": "",
+                  "Recipe": false,
+                  "Transaction_history": [
+                    {
+                      "amount": 30,
+                      "dateAndTime": "23 Feb 2025-12:36 PM",
+                      "type": "Added",
+                      "userEmail": "chernohyayahjagitay@gmail.com",
+                      "username": "John"
+                    },
+                    {
+                      "amount": 0,
+                      "dateAndTime": "23 Feb 2025-12:38 PM",
+                      "type": "Removed",
+                      "userEmail": "example@gmail.com",
+                      "username": "John"
+                    }
+                  ],
+                  "Update_Stack": "30",
+                  "add_tax": false,
+                  "auto_update_stock": true,
+                  "bar_code": "6232008703179",
+                  "expiry_date": "31/Jan/2025",
+                  "internal_notes": false,
+                  "internal_notes_string": "",
+                  "low_stock_alert": 180,
+                  "margin": "",
+                  "modifiers": false,
+                  "modifiers_value": 0,
+                  "preventItem": false,
+                  "selling_price": 250,
+                  "sku_bool": false,
+                  "sku_notes": "",
+                  "stockAvailable": "",
+                  "tag_name": [
+                    "Shelf 1"
+                  ],
+                  "tags": true,
+                  "tax_inclusive": false,
+                  "tax_value": 0,
+                  "track_expiry": true,
+                  "track_profit": true,
+                  "variant_name": "blue "
+                }
+              }
+            },
+            "mango ": {
+              "category": "tex 1",
+              "item_color": "#FF444444",
+              "item_image": "",
+              "item_name": "mango ",
+              "item_shape": "",
+              "kilogram": 0,
+              "sell_by_fraction": "Sell by Fraction",
+              "sell_by_unit": "",
+              "selling_price": 50,
+              "simple": false,
+              "variants": {
+                "red": {
+                  "Auto_update": false,
+                  "Current_Stack": "10",
+                  "Purchase_price": "",
+                  "Recipe": false,
+                  "Transaction_history": [
+                    {
+                      "amount": 10,
+                      "dateAndTime": "17 Feb 2025-12:37 AM",
+                      "type": "Added",
+                      "userEmail": "chernohyayahjagitay@gmail.com",
+                      "username": "John"
+                    },
+                    {
+                      "amount": 0,
+                      "dateAndTime": "17 Feb 2025-12:38 AM",
+                      "type": "Removed",
+                      "userEmail": "example@gmail.com",
+                      "username": "John"
+                    }
+                  ],
+                  "Update_Stack": "10",
+                  "add_tax": false,
+                  "auto_update_stock": true,
+                  "bar_code": "8760392841",
+                  "expiry_date": "",
+                  "internal_notes": false,
+                  "internal_notes_string": "",
+                  "low_stock_alert": 0,
+                  "margin": "",
+                  "modifiers": false,
+                  "modifiers_value": 0,
+                  "preventItem": false,
+                  "selling_price": 50,
+                  "sku_bool": false,
+                  "sku_notes": "",
+                  "stockAvailable": "",
+                  "tags": false,
+                  "tax_inclusive": false,
+                  "tax_value": 0,
+                  "track_expiry": false,
+                  "track_profit": true,
+                  "variant_name": "red"
+                }
+              }
+            }
+          },
+          "mobileNo": "+23278504270",
+          "number_system": "",
+          "region_name": "Sierra Leone",
+          "timezone": "",
+          "username": "CJ"
+        }
+      ],
+      "email": "chernohyayahjagitay@gmail.com",
+      "username": "CJ"
+    },
+    "-O8NbdfiDsL7kPJDKOgz": {
+      "accounts": [
+        {
+          "businessName": "abc",
+          "businessType": "Retail",
+          "country": "",
+          "currency": "",
+          "decimal_places": "",
+          "featuresInterested": "[I want generate bills, I want print bills, I want print bills, I want to track daily sales, I want to track profits, I want to track inventory, I want to track expense, I want to track staff attendance]",
+          "mobileNo": "+1123456789",
+          "number_system": "",
+          "region_name": "INDIA",
+          "timezone": "",
+          "username": "TextFieldValue(text='karthick', selection=TextRange(8, 8), composition=null)"
+        }
+      ],
+      "email": "karthick@gmail.com",
+      "username": "TextFieldValue(text='karthick', selection=TextRange(8, 8), composition=null)"
+    },
+    "-O9HHa-ah26eI1xDigSs": {
+      "accounts": [
+        {
+          "businessName": "Biz",
+          "businessType": "Whole sale",
+          "country": "",
+          "currency": "",
+          "decimal_places": "",
+          "featuresInterested": "[I want generate bills, I want print bills, I want to track daily sales, I want to track profits, I want to track inventory, I want to track expense, I want to track staff attendance]",
+          "mobileNo": "+23278504270",
+          "number_system": "",
+          "region_name": "INDIA",
+          "timezone": "",
+          "username": "Biz"
+        }
+      ],
+      "email": "bizstack2024@gmail.com",
+      "username": "Biz"
+    },
+    "-O9Ixm-aaI5ymLc1ZhT_": {
+      "accounts": [
+        {
+          "BillingHistory": {
+            "Karthick_8072659543": [
+              {
+                "bussinessOwnerMobileNumber": "",
+                "customerName": "Karthick",
+                "customerPhoneNumber": "8072659543",
+                "customer_address": "Chennai ",
+                "customer_email": "karthick1031998@gmail.com",
+                "dateTime": "15 Mar 2025-05:45 PM",
+                "grandTotal": "193.8",
+                "itemCount": "2",
+                "list_of_items": [
+                  {
+                    "name": "rice",
+                    "price": 100,
+                    "qty": 1,
+                    "total": 100
+                  },
+                  {
+                    "name": "guva",
+                    "price": 90,
+                    "qty": 1,
+                    "total": 90
+                  }
+                ],
+                "paymentMode": "Credit",
+                "receiptNo": "REC-9",
+                "smsIncluded": false,
+                "subtotal": "190.0",
+                "tax": [
+                  {
+                    "isPercentage": true,
+                    "name": "TAX-DEFAULT",
+                    "value": 2
+                  }
+                ],
+                "unitCount": "15.0"
+              },
+              {
+                "bussinessOwnerMobileNumber": "",
+                "customerName": "Karthick",
+                "customerPhoneNumber": "8072659543",
+                "customer_address": "Chennai ",
+                "customer_email": "karthick1031998@gmail.com",
+                "dateTime": "15 Mar 2025-05:47 PM",
+                "grandTotal": "479.4",
+                "itemCount": "2",
+                "list_of_items": [
+                  {
+                    "name": "rice",
+                    "price": 100,
+                    "qty": 2,
+                    "total": 200
+                  },
+                  {
+                    "name": "guva",
+                    "price": 90,
+                    "qty": 3,
+                    "total": 270
+                  }
+                ],
+                "paymentMode": "Cash",
+                "receiptNo": "REC-10",
+                "smsIncluded": false,
+                "subtotal": "470.0",
+                "tax": [
+                  {
+                    "isPercentage": true,
+                    "name": "TAX-DEFAULT",
+                    "value": 2
+                  }
+                ],
+                "unitCount": "25.0"
+              }
+            ],
+            "Karthick_9463549845": [
+              {
+                "bussinessOwnerMobileNumber": "",
+                "customerName": "Karthick",
+                "customerPhoneNumber": "9463549845",
+                "customer_address": "",
+                "customer_email": "",
+                "dateTime": "2025-02-02 01:23 PM",
+                "deliveryCharge": [
+                  {
+                    "isPercentage": true,
+                    "name": "delivery",
+                    "value": 2
+                  }
+                ],
+                "discount": [
+                  {
+                    "isPercentage": true,
+                    "name": "DIWALI",
+                    "value": 2
+                  },
+                  {
+                    "isPercentage": true,
+                    "name": "dicount",
+                    "value": 5
+                  }
+                ],
+                "grandTotal": "690.1266999999999",
+                "itemCount": "4",
+                "list_of_items": [
+                  {
+                    "name": "Example Item",
+                    "price": 100.5,
+                    "qty": 2,
+                    "total": 201
+                  },
+                  {
+                    "name": "apple",
+                    "price": 100,
+                    "qty": 1,
+                    "total": 100
+                  },
+                  {
+                    "name": "rice",
+                    "price": 100,
+                    "qty": 2,
+                    "total": 200
+                  },
+                  {
+                    "name": "orange",
+                    "price": 100,
+                    "qty": 1,
+                    "total": 100
+                  }
+                ],
+                "otherCharge": [
+                  {
+                    "isPercentage": true,
+                    "name": "other",
+                    "value": 2
+                  }
+                ],
+                "packingCharge": [
+                  {
+                    "isPercentage": false,
+                    "name": "package",
+                    "value": 5
+                  }
+                ],
+                "paymentMode": "Cash",
+                "receiptNo": "REC-8",
+                "serviceCharge": [
+                  {
+                    "isPercentage": false,
+                    "name": "service",
+                    "value": 20
+                  }
+                ],
+                "smsIncluded": false,
+                "subtotal": "601.0",
+                "tax": [
+                  {
+                    "isPercentage": true,
+                    "name": "GST",
+                    "value": 5
+                  },
+                  {
+                    "isPercentage": true,
+                    "name": "tax",
+                    "value": 10
+                  }
+                ],
+                "unitCount": "6.0"
+              }
+            ],
+            "abc_8022222222": [
+              {
+                "bussinessOwnerMobileNumber": "",
+                "customerName": "abc",
+                "customerPhoneNumber": "8022222222",
+                "customer_address": "",
+                "customer_email": "",
+                "dateTime": "16 Feb 2025-09:52 PM",
+                "discount": [
+                  {
+                    "isPercentage": false,
+                    "name": "dicount",
+                    "value": 3
+                  }
+                ],
+                "grandTotal": "997.56",
+                "itemCount": "5",
+                "list_of_items": [
+                  {
+                    "name": "Example Item",
+                    "price": 100.5,
+                    "qty": 2,
+                    "total": 201
+                  },
+                  {
+                    "name": "orange",
+                    "price": 100,
+                    "qty": 2,
+                    "total": 200
+                  },
+                  {
+                    "name": "rice",
+                    "price": 100,
+                    "qty": 2,
+                    "total": 200
+                  },
+                  {
+                    "name": "apple",
+                    "price": 100,
+                    "qty": 2,
+                    "total": 200
+                  },
+                  {
+                    "name": "guva",
+                    "price": 90,
+                    "qty": 2,
+                    "total": 180
+                  }
+                ],
+                "paymentMode": "Credit Card",
+                "receiptNo": "REC-7",
+                "smsIncluded": false,
+                "subtotal": "981.0",
+                "tax": [
+                  {
+                    "isPercentage": true,
+                    "name": "tax",
+                    "value": 2
+                  }
+                ],
+                "unitCount": "10.0"
+              }
+            ],
+            "airtel_9500809348": [
+              {
+                "bussinessOwnerMobileNumber": "",
+                "customerName": "airtel",
+                "customerPhoneNumber": "9500809348",
+                "customer_address": "",
+                "customer_email": "",
+                "dateTime": "10 Feb 2025-07:56 AM",
+                "grandTotal": "200.0",
+                "itemCount": "1",
+                "list_of_items": [
+                  {
+                    "name": "cheese burger",
+                    "price": 100,
+                    "qty": 2,
+                    "total": 200
+                  }
+                ],
+                "paymentMode": "Debit Card",
+                "receiptNo": "REC-6",
+                "smsIncluded": false,
+                "subtotal": "200",
+                "unitCount": "2.0"
+              }
+            ],
+            "karthick_1230456789": [
+              {
+                "bussinessOwnerMobileNumber": "",
+                "customerName": "karthick",
+                "customerPhoneNumber": "1230456789",
+                "customer_address": "",
+                "customer_email": "",
+                "dateTime": "10 Feb 2025-07:32 AM",
+                "grandTotal": "100.0",
+                "itemCount": "1",
+                "list_of_items": [
+                  {
+                    "name": "cheese burger",
+                    "price": 100,
+                    "qty": 1,
+                    "total": 100
+                  }
+                ],
+                "paymentMode": "Cash",
+                "receiptNo": "REC-2",
+                "smsIncluded": false,
+                "subtotal": "100",
+                "unitCount": "3.0"
+              }
+            ],
+            "karthick_8072659543": [
+              {
+                "bussinessOwnerMobileNumber": "",
+                "customerName": "karthick",
+                "customerPhoneNumber": "8072659543",
+                "customer_address": "",
+                "customer_email": "",
+                "dateTime": "10 Feb 2025-07:33 AM",
+                "grandTotal": "100.0",
+                "itemCount": "1",
+                "list_of_items": [
+                  {
+                    "name": "cheese burger",
+                    "price": 100,
+                    "qty": 1,
+                    "total": 100
+                  }
+                ],
+                "paymentMode": "Credit Card",
+                "receiptNo": "REC-3",
+                "smsIncluded": false,
+                "subtotal": "100",
+                "unitCount": "4.0"
+              },
+              {
+                "bussinessOwnerMobileNumber": "",
+                "customerName": "karthick",
+                "customerPhoneNumber": "8072659543",
+                "customer_address": "",
+                "customer_email": "",
+                "dateTime": "10 Feb 2025-07:38 AM",
+                "grandTotal": "100.0",
+                "itemCount": "1",
+                "list_of_items": [
+                  {
+                    "name": "cheese burger",
+                    "price": 100,
+                    "qty": 1,
+                    "total": 100
+                  }
+                ],
+                "paymentMode": "Cash",
+                "receiptNo": "REC-4",
+                "smsIncluded": false,
+                "subtotal": "100",
+                "unitCount": "5.0"
+              },
+              {
+                "bussinessOwnerMobileNumber": "",
+                "customerName": "karthick",
+                "customerPhoneNumber": "8072659543",
+                "customer_address": "",
+                "customer_email": "",
+                "dateTime": "10 Feb 2025-07:38 AM",
+                "grandTotal": "100.0",
+                "itemCount": "1",
+                "list_of_items": [
+                  {
+                    "name": "cheese burger",
+                    "price": 100,
+                    "qty": 1,
+                    "total": 100
+                  }
+                ],
+                "paymentMode": "Cash",
+                "receiptNo": "REC-5",
+                "smsIncluded": false,
+                "subtotal": "100",
+                "unitCount": "6.0"
+              }
+            ]
+          },
+          "CustomCharges": {
+            "DeliveryCharge": [
+              {
+                "isDefaultAddToBill": false,
+                "isPercentage": "%",
+                "name": "delivery",
+                "value": 2
+              }
+            ],
+            "DiscountCharge": [
+              {
+                "isDefaultAddToBill": false,
+                "isPercentage": "%",
+                "name": "DIWALI",
+                "value": 2
+              },
+              {
+                "isDefaultAddToBill": false,
+                "isPercentage": "₹",
+                "name": "Pongal",
+                "value": 2000
+              },
+              {
+                "isDefaultAddToBill": false,
+                "isPercentage": "%",
+                "name": "TEST",
+                "value": 10
+              }
+            ],
+            "OtherCharge": [
+              {
+                "isDefaultAddToBill": false,
+                "isPercentage": "%",
+                "name": "other",
+                "value": 2
+              },
+              {
+                "isDefaultAddToBill": false,
+                "isPercentage": "₹",
+                "name": "OtheR",
+                "value": 10
+              }
+            ],
+            "PackingCharge": [
+              {
+                "isDefaultAddToBill": false,
+                "isPercentage": "%",
+                "name": "packing",
+                "value": 2
+              }
+            ],
+            "ServiceCharge": [
+              {
+                "isDefaultAddToBill": false,
+                "isPercentage": "%",
+                "name": "service",
+                "value": 2
+              }
+            ],
+            "TaxCharge": [
+              {
+                "isDefaultAddToBill": false,
+                "isPercentage": "%",
+                "name": "VAT",
+                "value": 2
+              },
+              {
+                "isDefaultAddToBill": false,
+                "isPercentage": "%",
+                "name": "GST",
+                "value": 5
+              },
+              {
+                "isDefaultAddToBill": true,
+                "isPercentage": "%",
+                "name": "TAX-DEFAULT",
+                "value": 2
+              }
+            ]
+          },
+          "Modifiers": [
+            {
+              "Modifierlist_name": [
+                "sofa:35.000",
+                "Table:300.000"
+              ],
+              "Modifiersname": "LivingRoom"
+            },
+            {
+              "Modifierlist_name": [
+                "Slab:350.000"
+              ],
+              "Modifiersname": "Kitchen"
+            },
+            {
+              "Modifierlist_name": [
+                "sample data:200"
+              ],
+              "Modifiersname": "sample"
+            },
+            {
+              "Modifierlist_name": [
+                "samples 2:200",
+                "samples 3:300",
+                "samples 4:"
+              ],
+              "Modifiersname": "samples 1"
+            }
+          ],
+          "businessName": "xyz",
+          "businessType": "Retail",
+          "categories": {
+            "%%vegetables%%": {
+              "color": "",
+              "imagelink": "null",
+              "shape": ""
+            },
+            "Laptop": {
+              "color": "",
+              "imagelink": "null",
+              "shape": ""
+            },
+            "Laptop2": {
+              "color": "",
+              "imagelink": "null",
+              "shape": ""
+            },
+            "fruits": {
+              "color": "",
+              "imagelink": "null",
+              "shape": ""
+            },
+            "fruitsssssssdssss": {
+              "color": "",
+              "imagelink": "",
+              "shape": ""
+            },
+            "smartphone ": {
+              "color": "",
+              "imagelink": "content://media/picker_get_content/0/com.android.providers.media.photopicker/media/1000104285",
+              "shape": ""
+            }
+          },
+          "country": "",
+          "currency": "",
+          "decimal_places": "",
+          "featuresInterested": "[I want generate bills, I want print bills, I want to track daily sales, I want to track profits, I want to track inventory, I want to track expense, I want to track staff attendance]",
+          "ingredient": {
+            "Egg": {
+              "IngredientName": "Egg",
+              "UpdatedStock": "178",
+              "createdDate": "2024-12-06 16:47:06",
+              "notes": "",
+              "status": "remove",
+              "stockHistoryList": [
+                {
+                  "amount": 100,
+                  "source": "",
+                  "time": "28 minutes ago",
+                  "type": "Added"
+                },
+                {
+                  "amount": 20,
+                  "source": "egg",
+                  "time": "24 minutes ago",
+                  "type": "Removed"
+                },
+                {
+                  "amount": 100,
+                  "source": "",
+                  "time": "31 minutes ago",
+                  "type": "Added"
+                },
+                {
+                  "amount": 2,
+                  "source": "",
+                  "time": "50 minutes ago",
+                  "type": "Removed"
+                }
+              ]
+            },
+            "masala": {
+              "IngredientName": "masala",
+              "UpdatedStock": "30",
+              "createdDate": "2024-12-06 16:46:34",
+              "notes": "masala",
+              "status": "add",
+              "stockHistoryList": [
+                {
+                  "amount": 30,
+                  "source": "masala",
+                  "time": "8 minutes ago",
+                  "type": "Added"
+                }
+              ]
+            },
+            "sugar": {
+              "IngredientName": "sugar",
+              "UpdatedStock": "70",
+              "createdDate": "2024-12-06 16:46:20",
+              "notes": "",
+              "status": "remove",
+              "stockHistoryList": [
+                {
+                  "amount": 100,
+                  "source": "sugar",
+                  "time": "47 minutes ago",
+                  "type": "Added"
+                },
+                {
+                  "amount": 30,
+                  "source": "",
+                  "time": "20 minutes ago",
+                  "type": "Removed"
+                }
+              ]
+            }
+          },
+          "items": {
+            "Example Item": {
+              "category": "Test Category",
+              "item_color": "Red",
+              "item_image": "http://example.com/item.jpg",
+              "item_name": "Example Item",
+              "item_shape": "Square",
+              "kilogram": 2.5,
+              "sell_by_fraction": true,
+              "sell_by_unit": true,
+              "selling_price": 100.5,
+              "simple": false,
+              "variants": {
+                "Variant A": {
+                  "Auto_update": true,
+                  "Current_Stack": 50,
+                  "History": [
+                    "History1",
+                    "History2"
+                  ],
+                  "Purchase_price": 75.5,
+                  "Recipe": true,
+                  "Transaction_history": [
+                    "Transaction1",
+                    "Transaction2"
+                  ],
+                  "Update_Stack": 5,
+                  "add_tax": true,
+                  "auto_update_stock": true,
+                  "bar_code": "1234567890123",
+                  "expiry_date": "2025-01-19",
+                  "internal_notes": true,
+                  "internal_notes_string": "Test notes",
+                  "low_stock_alert": 5,
+                  "margin": "20%",
+                  "modifiers": true,
+                  "modifiers_value": 3,
+                  "preventItem": false,
+                  "recipes_list": [
+                    "Recipe 1",
+                    "Recipe 2"
+                  ],
+                  "selling_price": 100.5,
+                  "sku_bool": true,
+                  "sku_notes": "SKU123",
+                  "stockAvailable": "50",
+                  "tag_name": [
+                    "Tag1",
+                    "Tag2"
+                  ],
+                  "tags": true,
+                  "tax_inclusive": true,
+                  "tax_value": 10,
+                  "track_expiry": true,
+                  "track_profit": true,
+                  "variant_name": "Variant A"
+                },
+                "Variant B": {
+                  "Auto_update": true,
+                  "Current_Stack": 50,
+                  "History": [
+                    "History1",
+                    "History2"
+                  ],
+                  "Purchase_price": 75.5,
+                  "Recipe": true,
+                  "Transaction_history": [
+                    "Transaction1",
+                    "Transaction2"
+                  ],
+                  "Update_Stack": 5,
+                  "add_tax": true,
+                  "auto_update_stock": true,
+                  "bar_code": "1234567890123",
+                  "expiry_date": "2025-01-19",
+                  "internal_notes": true,
+                  "internal_notes_string": "Test notes",
+                  "low_stock_alert": 5,
+                  "margin": "20%",
+                  "modifiers": true,
+                  "modifiers_value": 3,
+                  "preventItem": false,
+                  "recipes_list": [
+                    "Recipe 1",
+                    "Recipe 2"
+                  ],
+                  "selling_price": 100.5,
+                  "sku_bool": true,
+                  "sku_notes": "SKU123",
+                  "stockAvailable": "50",
+                  "tag_name": [
+                    "Tag1",
+                    "Tag2"
+                  ],
+                  "tags": true,
+                  "tax_inclusive": true,
+                  "tax_value": 10,
+                  "track_expiry": true,
+                  "track_profit": true,
+                  "variant_name": "Variant B"
+                }
+              }
+            },
+            "apple": {
+              "Auto_update": false,
+              "Bar_code": "",
+              "Bar_code_bool": false,
+              "Current_Stack": "0",
+              "Purchase_price": "",
+              "Recipe": false,
+              "Transaction_history": [
+                {
+                  "amount": 0,
+                  "dateAndTime": "05 Jan 2025-08:09 PM",
+                  "type": "Removed",
+                  "userEmail": "example@gmail.com",
+                  "username": "John"
+                }
+              ],
+              "Update_Stack": "",
+              "add_compare_price_mrp": 0,
+              "add_compare_price_mrp_bool": false,
+              "add_tax": false,
+              "auto_update_stock": false,
+              "category": "vegetables",
+              "expiry_date": "",
+              "expiry_date_alert": 0,
+              "internal_notes": false,
+              "internal_notes_string": "",
+              "item_color": "#FF444444",
+              "item_image": "",
+              "item_name": "apple",
+              "item_shape": "",
+              "kilogram": 0,
+              "low_stock_alert": 0,
+              "margin": "",
+              "modifiers": false,
+              "modifiers_value": 0,
+              "preventItem": false,
+              "sell_by_fraction": "Sell by Fraction",
+              "sell_by_unit": "",
+              "selling_price": 100,
+              "simple": true,
+              "sku_bool": false,
+              "sku_notes": "",
+              "stockAvailable": "",
+              "tags": false,
+              "tax_inclusive": false,
+              "tax_value": 0,
+              "track_expiry": false,
+              "track_profit": false,
+              "variant_name": ""
+            },
+            "guva": {
+              "Auto_update": false,
+              "Bar_code": "",
+              "Bar_code_bool": false,
+              "Current_Stack": "30",
+              "Purchase_price": "",
+              "Recipe": true,
+              "Transaction_history": [
+                {
+                  "amount": 30,
+                  "dateAndTime": "05 Jan 2025-01:21 PM",
+                  "type": "Added",
+                  "userEmail": "karthick61106110@gmail.com",
+                  "username": "John"
+                },
+                {
+                  "amount": 0,
+                  "dateAndTime": "05 Jan 2025-01:22 PM",
+                  "type": "Removed",
+                  "userEmail": "example@gmail.com",
+                  "username": "John"
+                }
+              ],
+              "Update_Stack": "30",
+              "add_compare_price_mrp": 0,
+              "add_compare_price_mrp_bool": false,
+              "add_tax": false,
+              "auto_update_stock": false,
+              "category": "%%vegetables%%",
+              "expiry_date": "",
+              "expiry_date_alert": 0,
+              "internal_notes": false,
+              "internal_notes_string": "",
+              "item_color": "#FF444444",
+              "item_image": "",
+              "item_name": "guva",
+              "item_shape": "circle",
+              "kilogram": 0,
+              "low_stock_alert": 0,
+              "margin": "",
+              "modifiers": false,
+              "modifiers_value": 0,
+              "preventItem": false,
+              "recipes_list": [
+                "9 Egg"
+              ],
+              "sell_by_fraction": "Sell by Fraction",
+              "sell_by_unit": "Sell by Unit",
+              "selling_price": 90,
+              "simple": false,
+              "sku_bool": false,
+              "sku_notes": "",
+              "stockAvailable": "",
+              "tag_name": [
+                "ji",
+                "ji"
+              ],
+              "tags": true,
+              "tax_inclusive": false,
+              "tax_value": 0,
+              "track_expiry": false,
+              "track_profit": false,
+              "variant_name": "red"
+            },
+            "orange": {
+              "Auto_update": false,
+              "Bar_code": "",
+              "Bar_code_bool": false,
+              "Current_Stack": "0",
+              "Purchase_price": "",
+              "Recipe": true,
+              "Transaction_history": [
+                {
+                  "amount": 0,
+                  "dateAndTime": "05 Jan 2025-08:10 PM",
+                  "type": "Removed",
+                  "userEmail": "example@gmail.com",
+                  "username": "John"
+                }
+              ],
+              "Update_Stack": "",
+              "add_compare_price_mrp": 0,
+              "add_compare_price_mrp_bool": false,
+              "add_tax": false,
+              "auto_update_stock": false,
+              "category": "fruits",
+              "expiry_date": "31/Jan/2025",
+              "expiry_date_alert": 0,
+              "internal_notes": false,
+              "internal_notes_string": "",
+              "item_color": "#FF444444",
+              "item_image": "",
+              "item_name": "orange",
+              "item_shape": "",
+              "kilogram": 0,
+              "low_stock_alert": 4,
+              "margin": "",
+              "modifiers": false,
+              "modifiers_value": 0,
+              "preventItem": false,
+              "recipes_list": [
+                "9 Egg"
+              ],
+              "sell_by_fraction": "Sell by Fraction",
+              "sell_by_unit": "",
+              "selling_price": 100,
+              "simple": false,
+              "sku_bool": false,
+              "sku_notes": "",
+              "stockAvailable": "",
+              "tags": false,
+              "tax_inclusive": false,
+              "tax_value": 0,
+              "track_expiry": true,
+              "track_profit": true,
+              "variant_name": "kamala"
+            },
+            "rice": {
+              "Auto_update": false,
+              "Bar_code": "9231595033",
+              "Bar_code_bool": true,
+              "Current_Stack": "30",
+              "Purchase_price": "",
+              "Recipe": true,
+              "Transaction_history": [
+                {
+                  "amount": 30,
+                  "dateAndTime": "05 Jan 2025-08:07 PM",
+                  "type": "Added",
+                  "userEmail": "karthick61106110@gmail.com",
+                  "username": "John"
+                },
+                {
+                  "amount": 0,
+                  "dateAndTime": "05 Jan 2025-08:08 PM",
+                  "type": "Removed",
+                  "userEmail": "example@gmail.com",
+                  "username": "John"
+                }
+              ],
+              "Update_Stack": "30",
+              "add_compare_price_mrp": 0,
+              "add_compare_price_mrp_bool": false,
+              "add_tax": false,
+              "auto_update_stock": false,
+              "category": "%%vegetables%%",
+              "expiry_date": "16/Jan/2025",
+              "expiry_date_alert": 0,
+              "internal_notes": false,
+              "internal_notes_string": "",
+              "item_color": "#FF444444",
+              "item_image": "",
+              "item_name": "rice",
+              "item_shape": "circle",
+              "kilogram": 100,
+              "low_stock_alert": 8,
+              "margin": "",
+              "modifiers": false,
+              "modifiers_value": 0,
+              "preventItem": false,
+              "recipes_list": [
+                "40 Egg",
+                "30 masala"
+              ],
+              "sell_by_fraction": "Sell by Fraction",
+              "sell_by_unit": "Sell by Unit",
+              "selling_price": 100,
+              "simple": false,
+              "sku_bool": false,
+              "sku_notes": "",
+              "stockAvailable": "",
+              "tag_name": [
+                "50"
+              ],
+              "tags": true,
+              "tax_inclusive": false,
+              "tax_value": 0,
+              "track_expiry": true,
+              "track_profit": true,
+              "variant_name": "basmathi"
+            }
+          },
+          "lastReceiptNo": "REC-10",
+          "mobileNo": "+912134567890",
+          "number_system": "",
+          "region_name": "INDIA",
+          "timezone": "",
+          "username": "Jasmin@123"
+        }
+      ],
+      "email": "karthick61106110@gmail.com",
+      "username": "Jasmin@123"
+    },
+    "-O9J86zncdL8-rmSeJei": {
+      "email": "example@gmail.com",
+      "username": "qwerty"
+    },
+    "-O9J8HFIcBrceZXDDRuf": {
+      "accounts": [
+        {
+          "businessName": "qwerty",
+          "businessType": "Retail",
+          "country": "",
+          "currency": "",
+          "decimal_places": "",
+          "featuresInterested": "[I want to track expense]",
+          "mobileNo": "+911234567890",
+          "number_system": "",
+          "region_name": "INDIA",
+          "timezone": "",
+          "username": "qwert"
+        }
+      ],
+      "email": "qwerty@gmail.com",
+      "username": "qwert"
+    },
+    "-O9Ox7_pfd6d_P2txU4n": {
+      "email": "naresh@gmail.com",
+      "username": "Naresh"
+    },
+    "-OBLox-qKB8GdZuKAztb": {
+      "accounts": [
+        {
+          "businessName": "test biz",
+          "businessType": "Trader",
+          "categories": {
+            "Test": {
+              "color": "#FF3F51B5",
+              "imagelink": "",
+              "shape": ""
+            }
+          },
+          "country": "",
+          "country_code": "+91",
+          "currency": "Unknown",
+          "decimal_places": "3",
+          "featuresInterested": "[I want generate bills]",
+          "items": {
+            "cj": {
+              "category": "",
+              "color": "null",
+              "imagelink": "",
+              "sell_by_unit": "Sell by Unit",
+              "sell_by_value": "Sell by Fraction",
+              "shape": ""
+            }
+          },
+          "mobileNo": "78504270",
+          "number_system": "99,99,999",
+          "region_name": "",
+          "timezone": "Africa/Freetown",
+          "username": "cjbem"
+        }
+      ],
+      "email": "cjbemsl2020@gmail.com",
+      "username": "cjbem"
+    },
+    "-OCOH9Mw3v3Exg8zR19F": {
+      "accounts": [
+        {
+          "BillingHistory": {
+            "selva_1234567891": [
+              {
+                "customerName": "selva",
+                "customerPhoneNumber": "1234567891",
+                "dateTime": "2025-02-05 12:30 PM",
+                "deliveryCharge": [
+                  5
+                ],
+                "discount": [
+                  0
+                ],
+                "grandTotal": [
+                  44
+                ],
+                "itemCount": "3",
+                "list_of_items": [
+                  {
+                    "name": "Apple",
+                    "price": 10,
+                    "qty": 2,
+                    "total": 20
+                  },
+                  {
+                    "name": "Banana",
+                    "price": 5,
+                    "qty": 3,
+                    "total": 15
+                  }
+                ],
+                "otherCharge": [
+                  0
+                ],
+                "packingCharge": [
+                  2
+                ],
+                "paymentMode": "UPI",
+                "receiptNo": "REC-1",
+                "serviceCharge": [
+                  0
+                ],
+                "smsIncluded": true,
+                "subtotal": [
+                  35
+                ],
+                "tax": [
+                  2
+                ],
+                "unitCount": "5"
+              },
+              {
+                "customerName": "selva",
+                "customerPhoneNumber": "1234567891",
+                "dateTime": "2025-02-02 12:31PM",
+                "deliveryCharge": [
+                  5
+                ],
+                "discount": [
+                  0
+                ],
+                "grandTotal": [
+                  44
+                ],
+                "itemCount": "3",
+                "list_of_items": [
+                  {
+                    "name": "Apple",
+                    "price": 10,
+                    "qty": 2,
+                    "total": 20
+                  },
+                  {
+                    "name": "Banana",
+                    "price": 5,
+                    "qty": 3,
+                    "total": 15
+                  }
+                ],
+                "otherCharge": [
+                  0
+                ],
+                "packingCharge": [
+                  2
+                ],
+                "paymentMode": "Cash",
+                "receiptNo": "REC-1",
+                "serviceCharge": [
+                  0
+                ],
+                "smsIncluded": true,
+                "subtotal": "35.0",
+                "tax": [
+                  2
+                ],
+                "unitCount": "5"
+              }
+            ]
+          },
+          "CustomerDetails": {
+            "Kumar": {
+              "Balance_Advance": "",
+              "Customer_Address": "Chennai",
+              "Customer_Email": "naresh@gmail.com",
+              "Customer_Name": "Kumar",
+              "DateOfAnniversary": "01/12/2024",
+              "DateOfBirth": "01/12/2024",
+              "GST_in": "26627272",
+              "Gender": "Male",
+              "Last_Visited": "",
+              "Member_Since": "",
+              "MobileNumber": "8015500749",
+              "Notes": "Happy customer ",
+              "Orders": "",
+              "Transaction_History": "[]"
+            },
+            "Logesh": {
+              "Balance_Advance": "",
+              "Customer_Address": "Thanjavur",
+              "Customer_Email": "logesh@gmail.com",
+              "Customer_Name": "Logesh",
+              "DateOfAnniversary": "20/01/2020",
+              "DateOfBirth": "05/01/1999",
+              "GST_in": "2627727272828",
+              "Gender": "Male",
+              "Last_Visited": "",
+              "Member_Since": "",
+              "MobileNumber": "8015500749",
+              "Notes": "Added",
+              "Orders": "",
+              "Transaction_History": "[]"
+            },
+            "Naresh": {
+              "Balance_Advance": "",
+              "Customer_Address": "Pondicherry ",
+              "Customer_Email": "nareshkumarv386@gmail.com",
+              "Customer_Name": "Naresh",
+              "DateOfAnniversary": "01/12/2024",
+              "DateOfBirth": "01/12/2024",
+              "GST_in": "2627277272",
+              "Gender": "Male",
+              "Last_Visited": "",
+              "Member_Since": "",
+              "MobileNumber": "9080879026",
+              "Notes": "Happy",
+              "Orders": "",
+              "Transaction_History": "[]"
+            }
+          },
+          "Modifiers": [
+            {
+              "Modifierlist_name": [
+                "Slab:100.00"
+              ],
+              "Modifiersname": "Living Room"
+            },
+            {
+              "Modifierlist_name": [
+                "Exhaust fan:1000.000",
+                "Gas stove:50.00"
+              ],
+              "Modifiersname": "Kitchen"
+            },
+            {
+              "Modifierlist_name": [
+                "chair:25.000"
+              ],
+              "Modifiersname": "Dining hall"
+            }
+          ],
+          "Payslip_Management": [
+            {
+              "basePay": "7",
+              "baseSalary": "4666.69",
+              "createdAt": "2025-02-16T16:56:27.918240",
+              "payrollList": [
+                {
+                  "Item_Type": "Addition",
+                  "amount": "4597",
+                  "notes": "Credited ",
+                  "title": "Shift Allowance "
+                },
+                {
+                  "Item_Type": "Deduction",
+                  "amount": "565",
+                  "notes": "Debited",
+                  "title": "Provided Fund "
+                }
+              ],
+              "staffMobileNumber": "9080879026",
+              "staffName": "Karthick",
+              "timePeriod": "2025-02-01 to 2025-02-16"
+            },
+            {
+              "basePay": "7",
+              "baseSalary": "4666.69",
+              "createdAt": "2025-02-16T16:59:12.951885",
+              "payrollList": [
+                {
+                  "Item_Type": "Addition",
+                  "amount": "4597",
+                  "notes": "Credited ",
+                  "title": "Shift Allowance "
+                },
+                {
+                  "Item_Type": "Deduction",
+                  "amount": "565",
+                  "notes": "Debited",
+                  "title": "Provided Fund "
+                }
+              ],
+              "staffMobileNumber": "9080879026",
+              "staffName": "Karthick",
+              "timePeriod": "2025-02-01 to 2025-02-16"
+            },
+            {
+              "basePay": "7",
+              "baseSalary": "4666.69",
+              "createdAt": "2025-02-16T17:02:12.474207",
+              "payrollList": [
+                {
+                  "Item_Type": "Addition",
+                  "amount": "12777",
+                  "notes": "hshshs",
+                  "title": "jsjsjsj"
+                },
+                {
+                  "Item_Type": "Deduction",
+                  "amount": "62662",
+                  "notes": "hsjsjs",
+                  "title": "jsjsjs"
+                }
+              ],
+              "staffMobileNumber": "9080879026",
+              "staffName": "Karthick",
+              "timePeriod": "2025-02-01 to 2025-02-16"
+            },
+            {
+              "basePay": "0",
+              "baseSalary": "0.0",
+              "createdAt": "2025-02-17T09:17:55.889642",
+              "staffMobileNumber": "",
+              "staffName": "",
+              "timePeriod": "null to null"
+            },
+            {
+              "basePay": "0",
+              "baseSalary": "0.0",
+              "createdAt": "2025-02-17T09:18:19.056032",
+              "staffMobileNumber": "",
+              "staffName": "",
+              "timePeriod": "null to null"
+            }
+          ],
+          "Staff Management": {
+            "Karthick": {
+              "Attendance": {
+                "2025-01-11": {
+                  "attendance_holiday": false,
+                  "attendance_leave": false,
+                  "attendance_notes": "",
+                  "attendance_overtime": "0",
+                  "attendance_overtime_amount": "",
+                  "attendance_overtime_hours": "",
+                  "attendance_status": "Present",
+                  "attendance_undertime": "0",
+                  "attendance_undertime_amount": "",
+                  "attendance_undertime_hours": "",
+                  "updated_at_last": "10:08 AM"
+                },
+                "2025-01-12": {
+                  "attendance_holiday": false,
+                  "attendance_leave": false,
+                  "attendance_notes": "",
+                  "attendance_overtime": "0",
+                  "attendance_overtime_amount": "",
+                  "attendance_overtime_hours": "",
+                  "attendance_status": "Present",
+                  "attendance_undertime": "0",
+                  "attendance_undertime_amount": "",
+                  "attendance_undertime_hours": "",
+                  "updated_at_last": "10:10 AM"
+                },
+                "2025-01-13": {
+                  "attendance_holiday": false,
+                  "attendance_leave": false,
+                  "attendance_notes": "",
+                  "attendance_overtime": "0",
+                  "attendance_overtime_amount": "",
+                  "attendance_overtime_hours": "",
+                  "attendance_status": "Present",
+                  "attendance_undertime": "0",
+                  "attendance_undertime_amount": "",
+                  "attendance_undertime_hours": "",
+                  "updated_at_last": "10:10 AM"
+                },
+                "2025-01-14": {
+                  "attendance_holiday": false,
+                  "attendance_leave": false,
+                  "attendance_notes": "",
+                  "attendance_overtime": "0",
+                  "attendance_overtime_amount": "",
+                  "attendance_overtime_hours": "",
+                  "attendance_status": "Present",
+                  "attendance_undertime": "0",
+                  "attendance_undertime_amount": "",
+                  "attendance_undertime_hours": "",
+                  "updated_at_last": "10:10 AM"
+                },
+                "2025-01-15": {
+                  "attendance_holiday": false,
+                  "attendance_leave": false,
+                  "attendance_notes": "",
+                  "attendance_overtime": "0",
+                  "attendance_overtime_amount": "",
+                  "attendance_overtime_hours": "",
+                  "attendance_status": "Absent",
+                  "attendance_undertime": "0",
+                  "attendance_undertime_amount": "",
+                  "attendance_undertime_hours": "",
+                  "updated_at_last": "10:15 AM"
+                },
+                "2025-01-16": {
+                  "attendance_holiday": false,
+                  "attendance_leave": false,
+                  "attendance_notes": "",
+                  "attendance_overtime": "0",
+                  "attendance_overtime_amount": "",
+                  "attendance_overtime_hours": "",
+                  "attendance_status": "Absent",
+                  "attendance_undertime": "0",
+                  "attendance_undertime_amount": "",
+                  "attendance_undertime_hours": "",
+                  "updated_at_last": "10:15 AM"
+                },
+                "2025-01-27": {
+                  "attendance_holiday": false,
+                  "attendance_leave": false,
+                  "attendance_notes": "",
+                  "attendance_overtime": "0",
+                  "attendance_overtime_amount": "",
+                  "attendance_overtime_hours": "",
+                  "attendance_status": "Present",
+                  "attendance_undertime": "0",
+                  "attendance_undertime_amount": "",
+                  "attendance_undertime_hours": "",
+                  "updated_at_last": "07:27 AM"
+                },
+                "2025-01-29": {
+                  "attendance_holiday": false,
+                  "attendance_leave": false,
+                  "attendance_notes": "",
+                  "attendance_overtime": "0",
+                  "attendance_overtime_amount": "",
+                  "attendance_overtime_hours": "",
+                  "attendance_status": "Present",
+                  "attendance_undertime": "0",
+                  "attendance_undertime_amount": "",
+                  "attendance_undertime_hours": "",
+                  "updated_at_last": "11:21 AM"
+                },
+                "2025-02-03": {
+                  "attendance_holiday": false,
+                  "attendance_leave": false,
+                  "attendance_notes": "",
+                  "attendance_overtime": "0",
+                  "attendance_overtime_amount": "",
+                  "attendance_overtime_hours": "",
+                  "attendance_status": "Present",
+                  "attendance_undertime": "0",
+                  "attendance_undertime_amount": "",
+                  "attendance_undertime_hours": "",
+                  "updated_at_last": "07:27 AM"
+                },
+                "2025-02-04": {
+                  "attendance_holiday": false,
+                  "attendance_leave": false,
+                  "attendance_notes": "",
+                  "attendance_overtime": "0",
+                  "attendance_overtime_amount": "",
+                  "attendance_overtime_hours": "",
+                  "attendance_status": "Present",
+                  "attendance_undertime": "0",
+                  "attendance_undertime_amount": "",
+                  "attendance_undertime_hours": "",
+                  "updated_at_last": "07:40 AM"
+                },
+                "2025-02-05": {
+                  "attendance_holiday": false,
+                  "attendance_leave": false,
+                  "attendance_notes": "",
+                  "attendance_overtime": "0",
+                  "attendance_overtime_amount": "",
+                  "attendance_overtime_hours": "",
+                  "attendance_status": "Present",
+                  "attendance_undertime": "0",
+                  "attendance_undertime_amount": "",
+                  "attendance_undertime_hours": "",
+                  "updated_at_last": "09:23 AM"
+                },
+                "2025-02-06": {
+                  "attendance_holiday": false,
+                  "attendance_leave": false,
+                  "attendance_notes": "",
+                  "attendance_overtime": "0",
+                  "attendance_overtime_amount": "",
+                  "attendance_overtime_hours": "",
+                  "attendance_status": "Present",
+                  "attendance_undertime": "0",
+                  "attendance_undertime_amount": "",
+                  "attendance_undertime_hours": "",
+                  "updated_at_last": "09:23 AM"
+                },
+                "2025-02-07": {
+                  "attendance_holiday": false,
+                  "attendance_leave": false,
+                  "attendance_notes": "",
+                  "attendance_overtime": "0",
+                  "attendance_overtime_amount": "",
+                  "attendance_overtime_hours": "",
+                  "attendance_status": "Present",
+                  "attendance_undertime": "0",
+                  "attendance_undertime_amount": "",
+                  "attendance_undertime_hours": "",
+                  "updated_at_last": "10:09 AM"
+                },
+                "2025-02-08": {
+                  "attendance_holiday": false,
+                  "attendance_leave": false,
+                  "attendance_notes": "",
+                  "attendance_overtime": "0",
+                  "attendance_overtime_amount": "",
+                  "attendance_overtime_hours": "",
+                  "attendance_status": "Present",
+                  "attendance_undertime": "0",
+                  "attendance_undertime_amount": "",
+                  "attendance_undertime_hours": "",
+                  "updated_at_last": "10:10 AM"
+                },
+                "2025-02-09": {
+                  "attendance_holiday": false,
+                  "attendance_leave": false,
+                  "attendance_notes": "",
+                  "attendance_overtime": "0",
+                  "attendance_overtime_amount": "",
+                  "attendance_overtime_hours": "",
+                  "attendance_status": "Present",
+                  "attendance_undertime": "0",
+                  "attendance_undertime_amount": "gg",
+                  "attendance_undertime_hours": "vc",
+                  "updated_at_last": "10:22 AM"
+                },
+                "2025-02-10": {
+                  "attendance_holiday": false,
+                  "attendance_leave": false,
+                  "attendance_notes": "",
+                  "attendance_overtime": "0",
+                  "attendance_overtime_amount": "",
+                  "attendance_overtime_hours": "",
+                  "attendance_status": "Absent",
+                  "attendance_undertime": "0",
+                  "attendance_undertime_amount": "",
+                  "attendance_undertime_hours": "",
+                  "updated_at_last": "03:56 AM"
+                },
+                "2025-02-12": {
+                  "attendance_holiday": false,
+                  "attendance_leave": false,
+                  "attendance_notes": "",
+                  "attendance_overtime": "0",
+                  "attendance_overtime_amount": "",
+                  "attendance_overtime_hours": "",
+                  "attendance_status": "Absent",
+                  "attendance_undertime": "0",
+                  "attendance_undertime_amount": "",
+                  "attendance_undertime_hours": "",
+                  "updated_at_last": "10:35 AM"
+                }
+              },
+              "add_expense": true,
+              "admin_receipt": false,
+              "allow_roles_permissions": true,
+              "allow_self_attendance": false,
+              "calculate_as_day": false,
+              "calculate_as_hourly": false,
+              "calculate_as_month": true,
+              "create_business": false,
+              "create_receipt": true,
+              "customer_admin": true,
+              "customer_create": true,
+              "customer_edit": true,
+              "customer_view": true,
+              "date_of_join": "22/08/98",
+              "edit_receipt": true,
+              "item_management_admin": true,
+              "item_management_create": true,
+              "item_management_edit": true,
+              "item_management_view": true,
+              "manage_banners": true,
+              "manage_business": true,
+              "manage_settings": true,
+              "manage_sf_orders": true,
+              "modify_expense": false,
+              "publish_sf_items": true,
+              "report_admin": true,
+              "report_expired_stocks": true,
+              "report_low_stocks": true,
+              "report_payment_modes": true,
+              "report_profits": true,
+              "report_sales": true,
+              "report_soldby": true,
+              "report_top_customers": true,
+              "return_receipt": true,
+              "sales_addchargers": true,
+              "sales_addtax": true,
+              "sales_alltables": false,
+              "sales_discount": true,
+              "sales_free": true,
+              "sales_gift": true,
+              "sales_givecredit": true,
+              "self_attendance_selection": "Single",
+              "sf_settings": false,
+              "shift_hour": "8",
+              "staff_admin": false,
+              "staff_as_custom": false,
+              "staff_as_helper": false,
+              "staff_as_manager": true,
+              "staff_as_partner": false,
+              "staff_attendance_management": true,
+              "staff_email": "karthick@gmail.com",
+              "staff_manage": false,
+              "staff_mobilenumber": "9080879026",
+              "staff_name": "Karthick",
+              "staff_payroll_manager": false,
+              "staff_salary": "20000",
+              "track_attendance_salary_": true,
+              "view_all_receipt": true
+            },
+            "Naresh Kumar Venugopal": {
+              "Attendance": {
+                "2025-01-31": {
+                  "attendance_holiday": false,
+                  "attendance_leave": false,
+                  "attendance_notes": "",
+                  "attendance_overtime": "0",
+                  "attendance_overtime_amount": "",
+                  "attendance_overtime_hours": "",
+                  "attendance_status": "Present",
+                  "attendance_undertime": "0",
+                  "attendance_undertime_amount": "",
+                  "attendance_undertime_hours": "",
+                  "updated_at_last": "11:20 AM"
+                },
+                "2025-02-02": {
+                  "attendance_holiday": false,
+                  "attendance_leave": false,
+                  "attendance_notes": "",
+                  "attendance_overtime": "0",
+                  "attendance_overtime_amount": "",
+                  "attendance_overtime_hours": "",
+                  "attendance_status": "Absent",
+                  "attendance_undertime": "0",
+                  "attendance_undertime_amount": "",
+                  "attendance_undertime_hours": "",
+                  "updated_at_last": "09:11 AM"
+                },
+                "2025-02-03": {
+                  "attendance_holiday": false,
+                  "attendance_leave": false,
+                  "attendance_notes": "",
+                  "attendance_overtime": "0",
+                  "attendance_overtime_amount": "",
+                  "attendance_overtime_hours": "",
+                  "attendance_status": "Present",
+                  "attendance_undertime": "0",
+                  "attendance_undertime_amount": "",
+                  "attendance_undertime_hours": "",
+                  "updated_at_last": "09:11 AM"
+                },
+                "2025-02-04": {
+                  "attendance_holiday": false,
+                  "attendance_leave": false,
+                  "attendance_notes": "",
+                  "attendance_overtime": "0",
+                  "attendance_overtime_amount": "",
+                  "attendance_overtime_hours": "",
+                  "attendance_status": "Present",
+                  "attendance_undertime": "0",
+                  "attendance_undertime_amount": "",
+                  "attendance_undertime_hours": "",
+                  "updated_at_last": "07:40 AM"
+                },
+                "2025-02-05": {
+                  "attendance_holiday": false,
+                  "attendance_leave": false,
+                  "attendance_notes": "",
+                  "attendance_overtime": "0",
+                  "attendance_overtime_amount": "",
+                  "attendance_overtime_hours": "",
+                  "attendance_status": "Present",
+                  "attendance_undertime": "0",
+                  "attendance_undertime_amount": "",
+                  "attendance_undertime_hours": "",
+                  "updated_at_last": "09:23 AM"
+                },
+                "2025-02-06": {
+                  "attendance_holiday": false,
+                  "attendance_leave": false,
+                  "attendance_notes": "",
+                  "attendance_overtime": "0",
+                  "attendance_overtime_amount": "",
+                  "attendance_overtime_hours": "",
+                  "attendance_status": "Present",
+                  "attendance_undertime": "0",
+                  "attendance_undertime_amount": "",
+                  "attendance_undertime_hours": "",
+                  "updated_at_last": "09:23 AM"
+                },
+                "2025-02-07": {
+                  "attendance_holiday": false,
+                  "attendance_leave": false,
+                  "attendance_notes": "",
+                  "attendance_overtime": "0",
+                  "attendance_overtime_amount": "",
+                  "attendance_overtime_hours": "",
+                  "attendance_status": "Present",
+                  "attendance_undertime": "0",
+                  "attendance_undertime_amount": "",
+                  "attendance_undertime_hours": "",
+                  "updated_at_last": "09:23 AM"
+                },
+                "2025-02-08": {
+                  "attendance_holiday": false,
+                  "attendance_leave": false,
+                  "attendance_notes": "",
+                  "attendance_overtime": "0",
+                  "attendance_overtime_amount": "",
+                  "attendance_overtime_hours": "",
+                  "attendance_status": "Present",
+                  "attendance_undertime": "0",
+                  "attendance_undertime_amount": "",
+                  "attendance_undertime_hours": "",
+                  "updated_at_last": "11:18 AM"
+                },
+                "2025-02-09": {
+                  "attendance_holiday": false,
+                  "attendance_leave": false,
+                  "attendance_notes": "",
+                  "attendance_overtime": "0",
+                  "attendance_overtime_amount": "",
+                  "attendance_overtime_hours": "",
+                  "attendance_status": "Absent",
+                  "attendance_undertime": "0",
+                  "attendance_undertime_amount": "",
+                  "attendance_undertime_hours": "",
+                  "updated_at_last": "10:11 AM"
+                }
+              },
+              "add_expense": true,
+              "admin_receipt": true,
+              "allow_roles_permissions": true,
+              "allow_self_attendance": true,
+              "calculate_as_day": false,
+              "calculate_as_hourly": false,
+              "calculate_as_month": true,
+              "create_business": true,
+              "create_receipt": false,
+              "customer_admin": true,
+              "customer_create": true,
+              "customer_edit": true,
+              "customer_view": true,
+              "date_of_join": "12/07/2022",
+              "edit_receipt": true,
+              "item_management_admin": true,
+              "item_management_create": true,
+              "item_management_edit": true,
+              "item_management_view": true,
+              "manage_banners": true,
+              "manage_business": true,
+              "manage_settings": true,
+              "manage_sf_orders": true,
+              "modify_expense": true,
+              "publish_sf_items": true,
+              "report_admin": true,
+              "report_expired_stocks": true,
+              "report_low_stocks": true,
+              "report_payment_modes": true,
+              "report_profits": true,
+              "report_sales": true,
+              "report_soldby": true,
+              "report_top_customers": true,
+              "return_receipt": true,
+              "sales_addchargers": true,
+              "sales_addtax": true,
+              "sales_alltables": false,
+              "sales_discount": true,
+              "sales_free": true,
+              "sales_gift": true,
+              "sales_givecredit": true,
+              "self_attendance_selection": "Punch In/Out",
+              "sf_settings": true,
+              "shift_hour": "9",
+              "staff_admin": true,
+              "staff_as_custom": false,
+              "staff_as_helper": false,
+              "staff_as_manager": false,
+              "staff_as_partner": true,
+              "staff_attendance_management": true,
+              "staff_email": "nareshkumar.venugopal@gmail.com",
+              "staff_manage": true,
+              "staff_mobilenumber": "9080879026",
+              "staff_name": "Naresh Kumar Venugopal",
+              "staff_payroll_manager": true,
+              "staff_salary": "46350",
+              "track_attendance_salary_": true,
+              "view_all_receipt": true
+            },
+            "Ponselvakumar": {
+              "Attendance": {
+                "2025-01-11": {
+                  "attendance_holiday": false,
+                  "attendance_leave": false,
+                  "attendance_notes": "",
+                  "attendance_overtime": "0",
+                  "attendance_overtime_amount": "",
+                  "attendance_overtime_hours": "",
+                  "attendance_status": "Absent",
+                  "attendance_undertime": "0",
+                  "attendance_undertime_amount": "",
+                  "attendance_undertime_hours": "",
+                  "updated_at_last": "10:11 AM"
+                },
+                "2025-01-30": {
+                  "attendance_holiday": false,
+                  "attendance_leave": false,
+                  "attendance_notes": "",
+                  "attendance_overtime": "0",
+                  "attendance_overtime_amount": "",
+                  "attendance_overtime_hours": "",
+                  "attendance_status": "Present",
+                  "attendance_undertime": "0",
+                  "attendance_undertime_amount": "",
+                  "attendance_undertime_hours": "",
+                  "updated_at_last": "11:20 AM"
+                },
+                "2025-02-02": {
+                  "attendance_holiday": false,
+                  "attendance_leave": false,
+                  "attendance_notes": "",
+                  "attendance_overtime": "0",
+                  "attendance_overtime_amount": "",
+                  "attendance_overtime_hours": "",
+                  "attendance_status": "Present",
+                  "attendance_undertime": "0",
+                  "attendance_undertime_amount": "",
+                  "attendance_undertime_hours": "",
+                  "updated_at_last": "09:10 AM"
+                },
+                "2025-02-03": {
+                  "attendance_holiday": false,
+                  "attendance_leave": false,
+                  "attendance_notes": "",
+                  "attendance_overtime": "0",
+                  "attendance_overtime_amount": "",
+                  "attendance_overtime_hours": "",
+                  "attendance_status": "Present",
+                  "attendance_undertime": "0",
+                  "attendance_undertime_amount": "",
+                  "attendance_undertime_hours": "",
+                  "updated_at_last": "09:11 AM"
+                },
+                "2025-02-04": {
+                  "attendance_holiday": false,
+                  "attendance_leave": false,
+                  "attendance_notes": "",
+                  "attendance_overtime": "0",
+                  "attendance_overtime_amount": "",
+                  "attendance_overtime_hours": "",
+                  "attendance_status": "Present",
+                  "attendance_undertime": "0",
+                  "attendance_undertime_amount": "",
+                  "attendance_undertime_hours": "",
+                  "updated_at_last": "07:40 AM"
+                },
+                "2025-02-05": {
+                  "attendance_holiday": false,
+                  "attendance_leave": false,
+                  "attendance_notes": "",
+                  "attendance_overtime": "0",
+                  "attendance_overtime_amount": "",
+                  "attendance_overtime_hours": "",
+                  "attendance_status": "Present",
+                  "attendance_undertime": "0",
+                  "attendance_undertime_amount": "",
+                  "attendance_undertime_hours": "",
+                  "updated_at_last": "09:23 AM"
+                },
+                "2025-02-06": {
+                  "attendance_holiday": false,
+                  "attendance_leave": false,
+                  "attendance_notes": "",
+                  "attendance_overtime": "0",
+                  "attendance_overtime_amount": "",
+                  "attendance_overtime_hours": "",
+                  "attendance_status": "Present",
+                  "attendance_undertime": "0",
+                  "attendance_undertime_amount": "",
+                  "attendance_undertime_hours": "",
+                  "updated_at_last": "09:23 AM"
+                },
+                "2025-02-08": {
+                  "attendance_holiday": false,
+                  "attendance_leave": false,
+                  "attendance_notes": "",
+                  "attendance_overtime": "0",
+                  "attendance_overtime_amount": "",
+                  "attendance_overtime_hours": "",
+                  "attendance_status": "Absent",
+                  "attendance_undertime": "0",
+                  "attendance_undertime_amount": "",
+                  "attendance_undertime_hours": "",
+                  "updated_at_last": "11:31 AM"
+                },
+                "2025-02-09": {
+                  "attendance_holiday": false,
+                  "attendance_leave": false,
+                  "attendance_notes": "",
+                  "attendance_overtime": "0",
+                  "attendance_overtime_amount": "",
+                  "attendance_overtime_hours": "",
+                  "attendance_status": "Absent",
+                  "attendance_undertime": "0",
+                  "attendance_undertime_amount": "",
+                  "attendance_undertime_hours": "",
+                  "updated_at_last": "10:11 AM"
+                }
+              },
+              "add_expense": true,
+              "admin_receipt": false,
+              "allow_roles_permissions": true,
+              "allow_self_attendance": false,
+              "calculate_as_day": false,
+              "calculate_as_hourly": false,
+              "calculate_as_month": true,
+              "create_business": false,
+              "create_receipt": false,
+              "customer_admin": false,
+              "customer_create": false,
+              "customer_edit": false,
+              "customer_view": false,
+              "date_of_join": "24/01/2025",
+              "edit_receipt": false,
+              "item_management_admin": false,
+              "item_management_create": false,
+              "item_management_edit": false,
+              "item_management_view": false,
+              "manage_banners": false,
+              "manage_business": false,
+              "manage_settings": false,
+              "manage_sf_orders": false,
+              "modify_expense": false,
+              "publish_sf_items": false,
+              "report_admin": false,
+              "report_expired_stocks": false,
+              "report_low_stocks": false,
+              "report_payment_modes": false,
+              "report_profits": false,
+              "report_sales": false,
+              "report_soldby": false,
+              "report_top_customers": false,
+              "return_receipt": false,
+              "sales_addchargers": true,
+              "sales_addtax": false,
+              "sales_alltables": false,
+              "sales_discount": false,
+              "sales_free": false,
+              "sales_gift": false,
+              "sales_givecredit": true,
+              "self_attendance_selection": "Punch In/Out",
+              "sf_settings": false,
+              "shift_hour": "8",
+              "staff_admin": false,
+              "staff_as_custom": false,
+              "staff_as_helper": true,
+              "staff_as_manager": true,
+              "staff_as_partner": false,
+              "staff_attendance_management": false,
+              "staff_email": "nareshkumar.venugopal@gmail.com",
+              "staff_manage": false,
+              "staff_mobilenumber": "9080879026",
+              "staff_name": "Ponselvakumar",
+              "staff_payroll_manager": false,
+              "staff_salary": "25000",
+              "track_attendance_salary_": true,
+              "view_all_receipt": true
+            }
+          },
+          "businessName": "Latha store",
+          "businessType": "Retail",
+          "categories": {
+            "Fruits": {
+              "color": "#FFCDDC39",
+              "imagelink": "",
+              "shape": ""
+            },
+            "Naresh is back": {
+              "color": "#FF795548",
+              "imagelink": "",
+              "shape": ""
+            },
+            "Plastics": {
+              "color": "#FFFFEB3B",
+              "imagelink": "",
+              "shape": ""
+            },
+            "Thalaivar": {
+              "color": "",
+              "imagelink": "https://firebasestorage.googleapis.com/v0/b/bizstack-pos-b20b5.firebasestorage.app/o/images%2FLatha%20store_1735620358212.jpg?alt=media&token=542fe755-5f7e-4c40-9512-b52c5d1951fb",
+              "shape": ""
+            },
+            "Vegetables": {
+              "color": "",
+              "imagelink": "https://firebasestorage.googleapis.com/v0/b/bizstack-pos-b20b5.firebasestorage.app/o/images%2FLatha%20store_1735130688249.jpg?alt=media&token=e0ec5220-4c90-4595-9002-038dab854a58",
+              "shape": ""
+            },
+            "arivu & RV best friends ": {
+              "color": "",
+              "imagelink": "https://firebasestorage.googleapis.com/v0/b/bizstack-pos-b20b5.firebasestorage.app/o/images%2FLatha%20store_1735130849862.jpg?alt=media&token=dc73f7d7-b866-422e-bd2e-c7ece8a6b6d9",
+              "shape": ""
+            },
+            "briyani": {
+              "color": "",
+              "imagelink": "https://firebasestorage.googleapis.com/v0/b/bizstack-pos-b20b5.firebasestorage.app/o/images%2F1735188131904.jpg?alt=media&token=cc85cf3c-d4c3-4875-a6be-e46ce24952c3",
+              "shape": ""
+            },
+            "code word": {
+              "color": "",
+              "imagelink": "https://firebasestorage.googleapis.com/v0/b/bizstack-pos-b20b5.firebasestorage.app/o/images%2FLatha%20store_1735189075655.jpg?alt=media&token=053a7148-6e73-4dee-847e-dc39f1171b79",
+              "shape": ""
+            },
+            "selva": {
+              "color": "#FF009688",
+              "imagelink": "null",
+              "shape": ""
+            }
+          },
+          "country": "",
+          "country_code": "+91",
+          "currency": "INR",
+          "decimal_places": "3",
+          "featuresInterested": "[]",
+          "ingredient": {
+            "Bun": {
+              "IngredientName": "Bun",
+              "UpdatedStock": "517",
+              "createdDate": "2024-12-02 09:42:31",
+              "notes": "",
+              "status": "remove",
+              "stockHistoryList": [
+                {
+                  "amount": 1,
+                  "source": "Source manual",
+                  "time": "57 minutes ago",
+                  "type": "Removed"
+                },
+                {
+                  "amount": 25,
+                  "source": "Source manual",
+                  "time": "28 minutes ago",
+                  "type": "Removed"
+                }
+              ]
+            },
+            "Butter": {
+              "IngredientName": "Butter",
+              "UpdatedStock": "35",
+              "createdDate": "2024-12-06 15:05:39",
+              "notes": "",
+              "status": "add"
+            },
+            "Capsicum": {
+              "IngredientName": "Capsicum",
+              "UpdatedStock": "10",
+              "createdDate": "2024-12-02 14:59:01",
+              "notes": "",
+              "status": "add"
+            },
+            "Jaggery": {
+              "IngredientName": "Jaggery",
+              "UpdatedStock": "25",
+              "createdDate": "2024-12-02 14:57:02",
+              "notes": "added",
+              "status": "add"
+            },
+            "Sweet": {
+              "IngredientName": "Sweet",
+              "UpdatedStock": "25",
+              "createdDate": "2024-12-02 09:46:41",
+              "notes": "added",
+              "status": "add"
+            }
+          },
+          "items": {
+            "Apple": {
+              "Auto_update": false,
+              "Bar_code": "",
+              "Bar_code_bool": false,
+              "Current_Stack": "25",
+              "Purchase_price": "",
+              "Recipe": true,
+              "Transaction_history": [
+                {
+                  "amount": 25,
+                  "dateAndTime": "05 Jan 2025-08:57 PM",
+                  "type": "Added",
+                  "userEmail": "nareshkumarv386@gmail.com",
+                  "username": "John"
+                },
+                {
+                  "amount": 0,
+                  "dateAndTime": "05 Jan 2025-08:58 PM",
+                  "type": "Removed",
+                  "userEmail": "example@gmail.com",
+                  "username": "John"
+                }
+              ],
+              "Update_Stack": "25",
+              "add_compare_price_mrp": 0,
+              "add_compare_price_mrp_bool": false,
+              "add_tax": true,
+              "auto_update_stock": false,
+              "category": "Fruits",
+              "expiry_date": "07/Jan/2025",
+              "expiry_date_alert": 0,
+              "internal_notes": true,
+              "internal_notes_string": "",
+              "item_color": "#FFCDDC39",
+              "item_image": "",
+              "item_name": "Apple",
+              "item_shape": "circle",
+              "kilogram": 25,
+              "low_stock_alert": 5,
+              "margin": "",
+              "modifiers": true,
+              "modifiers_value": 0,
+              "preventItem": false,
+              "recipes_list": [
+                "25 Capsicum"
+              ],
+              "sell_by_fraction": "Sell by Fraction",
+              "sell_by_unit": "Sell by Unit",
+              "selling_price": 25,
+              "simple": false,
+              "sku_bool": false,
+              "sku_notes": "",
+              "stockAvailable": "",
+              "tags": false,
+              "tax_inclusive": true,
+              "tax_value": 25,
+              "track_expiry": true,
+              "track_profit": true,
+              "variant_name": "Fruits Varient"
+            }
+          },
+          "lastReceiptNo": "REC-1",
+          "mobileNo": "9080879026",
+          "number_system": "99,99,999",
+          "region_name": "India",
+          "timezone": "Asia/Kolkata",
+          "username": "Naresh"
+        },
+        {
+          "businessName": "Madurai Aachi",
+          "businessType": "Hotel",
+          "categories": {
+            "sajssj": {
+              "color": "",
+              "imagelink": "",
+              "shape": ""
+            },
+            "selva": {
+              "color": "",
+              "imagelink": "https://firebasestorage.googleapis.com/v0/b/bizstack-pos-b20b5.firebasestorage.app/o/images%2FMutableState(value%3DMadurai%20Aachi)%4033181660_1735128686132.jpg?alt=media&token=4dea1ac5-ab53-4d4b-82a4-45d06dd7ea6c",
+              "shape": ""
+            }
+          },
+          "country": "",
+          "country_code": "+91",
+          "currency": "INR",
+          "decimal_places": "2",
+          "featuresInterested": "[]",
+          "mobileNo": "9080879026",
+          "number_system": "9,999,999",
+          "region_name": "India",
+          "timezone": "Asia/Kolkata",
+          "username": "Naresh"
+        },
+        {
+          "CustomerDetails": {
+            "Chandhini": {
+              "Balance_Advance": "",
+              "Customer_Address": "Chennai",
+              "Customer_Email": "chandhini@gmail.com",
+              "Customer_Name": "Chandhini",
+              "DateOfAnniversary": "17/12/2024",
+              "DateOfBirth": "01/12/2024",
+              "GST_in": "5566777888",
+              "Gender": "Female",
+              "Last_Visited": "",
+              "Member_Since": "",
+              "MobileNumber": "8510056728",
+              "Notes": "Regular Customer ",
+              "Orders": "",
+              "Transaction_History": "[]"
+            },
+            "Naresh Kumar ": {
+              "Balance_Advance": "",
+              "Customer_Address": "Pondicherry ",
+              "Customer_Email": "nareshkumarv386@gmail.com",
+              "Customer_Name": "Naresh Kumar ",
+              "DateOfAnniversary": "04/04/2023",
+              "DateOfBirth": "01/05/2024",
+              "GST_in": "62627272727",
+              "Gender": "Female",
+              "Last_Visited": "",
+              "Member_Since": "",
+              "MobileNumber": "9080879026",
+              "Notes": "fff",
+              "Orders": "",
+              "Transaction_History": "[]"
+            }
+          },
+          "businessName": "Go Colors",
+          "businessType": "Retail",
+          "categories": {
+            "Fruits": {
+              "color": "",
+              "imagelink": "null",
+              "shape": ""
+            }
+          },
+          "country": "",
+          "country_code": "+91",
+          "currency": "INR",
+          "decimal_places": "2",
+          "featuresInterested": "[]",
+          "ingredient": {
+            "Bun": {
+              "IngredientName": "Bun",
+              "UpdatedStock": "25",
+              "createdDate": "2024-12-23 12:35:05",
+              "notes": "Added",
+              "status": "add",
+              "stockHistoryList": [
+                {
+                  "amount": 25,
+                  "source": "Added",
+                  "time": "23 minutes ago",
+                  "type": "Added"
+                }
+              ]
+            },
+            "Kissan Jam": {
+              "IngredientName": "Kissan Jam",
+              "UpdatedStock": "25",
+              "createdDate": "2024-12-23 12:44:35",
+              "notes": "Kissan jam added",
+              "status": "add",
+              "stockHistoryList": [
+                {
+                  "amount": 25,
+                  "source": "Kissan jam added",
+                  "time": "47 minutes ago",
+                  "type": "Added"
+                }
+              ]
+            }
+          },
+          "items": {
+            "Apple": {
+              "Auto_update": false,
+              "Bar_code": "9473099264",
+              "Bar_code_bool": true,
+              "Current_Stack": "0",
+              "Purchase_price": "",
+              "Recipe": true,
+              "Transaction_history": [
+                {
+                  "amount": 0,
+                  "dateAndTime": "23 Dec 2024-12:26 PM",
+                  "type": "Removed",
+                  "userEmail": "example@gmail.com",
+                  "username": "John"
+                }
+              ],
+              "Update_Stack": "-",
+              "add_compare_price_mrp": 0,
+              "add_compare_price_mrp_bool": false,
+              "add_tax": true,
+              "auto_update_stock": true,
+              "category": "Fruits",
+              "expiry_date": "",
+              "expiry_date_alert": 0,
+              "internal_notes": true,
+              "internal_notes_string": "Notes",
+              "item_color": "#FF444444",
+              "item_image": "",
+              "item_name": "Apple",
+              "item_shape": "circle",
+              "kilogram": 0,
+              "low_stock_alert": 0,
+              "margin": "",
+              "modifiers": true,
+              "modifiers_value": 0,
+              "preventItem": false,
+              "recipes_list": "[]",
+              "sell_by_fraction": "Sell by Fraction",
+              "sell_by_unit": "Sell by Unit",
+              "selling_price": 56,
+              "simple": false,
+              "sku_bool": false,
+              "sku_notes": "",
+              "stockAvailable": "",
+              "tag_name": "tag",
+              "tags": true,
+              "tax_inclusive": true,
+              "tax_value": 25,
+              "track_expiry": true,
+              "track_profit": false,
+              "variant_name": ""
+            }
+          },
+          "mobileNo": "9080879026",
+          "number_system": "9,999,999",
+          "region_name": "India",
+          "timezone": "Asia/Kolkata",
+          "username": "Naresh"
+        },
+        {
+          "CustomCharges": {
+            "DeliveryCharge": [
+              15
+            ],
+            "DiscountCharge": [
+              10
+            ],
+            "OtherCharge": [
+              2,
+              4.5
+            ],
+            "PackingCharge": [
+              5,
+              3
+            ],
+            "ServiceCharge": [
+              7.5
+            ],
+            "TaxCharge": [
+              10
+            ]
+          },
+          "ReceiptSettings": {
+            "BusinessAddress": "123, Main Street, City",
+            "BusinessAddressShowInReceipt": true,
+            "BusinessLogo": "https://example.com/logo.png",
+            "BusinessLogoShowInReceipt": true,
+            "MobileNumberShowInReceipt": true,
+            "OrderItemsBy": "Name",
+            "SelectWhatsappShareApp": "WhatsApp",
+            "ShowCashierNameOnReceipt": true,
+            "ShowChangeReturnAmountOnReceipt": true,
+            "ShowCustomerAddressOnReceipt": false,
+            "ShowCustomerPhoneNumberOnReceipt": true,
+            "ShowListPriceInReceipt": true,
+            "ShowPaymentDetailsOnReceipt": true,
+            "ShowPoweredByZobase": false,
+            "ShowTotalItemCountOnReceipt": true,
+            "ShowTotalMoneySavedByACustomer": true,
+            "ShowrateInReceipt": true,
+            "TaxNumber": "GSTIN12345",
+            "TaxNumberShowInReceipt": false,
+            "ThankYouNote": "Thank you for shopping with us!",
+            "UseAppLanguage": true,
+            "Website": "www.abcstore.com",
+            "WebsiteShowInReceipt": "xccxc",
+            "mobileNumber": "9876543210",
+            "receiptTitle": "ABC Store Invoice",
+            "totalBillAmount": "5000.00"
+          },
+          "Staff Management": {
+            "selvaDoe": {
+              "Attendance": {
+                "2025-01-02": {
+                  "status": "Present"
+                },
+                "2025-01-03": {
+                  "status": "Present"
+                },
+                "2025-01-04": {
+                  "status": "Present"
+                },
+                "2025-01-05": {
+                  "attendance_holiday": false,
+                  "attendance_leave": false,
+                  "attendance_notes": "Worked on critical tasks",
+                  "attendance_overtime": "No",
+                  "attendance_overtime_amount": "0.00",
+                  "attendance_overtime_hours": "0",
+                  "attendance_status": "Present",
+                  "attendance_undertime": "Yes",
+                  "attendance_undertime_amount": "10.00",
+                  "attendance_undertime_hours": "2",
+                  "updated_at_last": "09:11 PM"
+                }
+              },
+              "add_expense": false,
+              "admin_receipt": false,
+              "allow_roles_permissions": true,
+              "allow_self_attendance": true,
+              "calculate_as_day": false,
+              "calculate_as_hourly": false,
+              "calculate_as_month": true,
+              "create_business": false,
+              "create_receipt": true,
+              "customer_admin": false,
+              "customer_create": true,
+              "customer_edit": true,
+              "customer_view": true,
+              "date_of_join": "2025-01-04",
+              "edit_receipt": false,
+              "item_management_admin": false,
+              "item_management_create": false,
+              "item_management_edit": true,
+              "item_management_view": true,
+              "manage_banners": false,
+              "manage_business": true,
+              "manage_settings": false,
+              "manage_sf_orders": false,
+              "modify_expense": false,
+              "publish_sf_items": false,
+              "report_admin": false,
+              "report_expired_stocks": false,
+              "report_low_stocks": false,
+              "report_payment_modes": false,
+              "report_profits": false,
+              "report_sales": true,
+              "report_soldby": false,
+              "report_top_customers": false,
+              "return_receipt": false,
+              "sales_addchargers": false,
+              "sales_addtax": false,
+              "sales_alltables": true,
+              "sales_discount": true,
+              "sales_free": false,
+              "sales_gift": false,
+              "sales_givecredit": false,
+              "self_attendance_selection": "Fingerprint",
+              "sf_settings": false,
+              "shift_hour": "8",
+              "staff_admin": false,
+              "staff_as_custom": false,
+              "staff_as_helper": false,
+              "staff_as_manager": true,
+              "staff_as_partner": false,
+              "staff_attendance_management": true,
+              "staff_email": "soodamittai360@gmail.com",
+              "staff_manage": true,
+              "staff_mobilenumber": "1234567890",
+              "staff_name": "selvaDoe",
+              "staff_payroll_manager": true,
+              "staff_salary": "5000",
+              "track_attendance_salary_": true,
+              "view_all_receipt": true
+            }
+          },
+          "businessName": "D Mart",
+          "businessType": "Wholesale",
+          "country": "",
+          "country_code": "+91",
+          "currency": "INR",
+          "decimal_places": "2",
+          "featuresInterested": "[]",
+          "items": {
+            "Organic Rice": {
+              "Bar_code": "123456789012",
+              "Bar_code_bool": true,
+              "Recipe": false,
+              "add_compare_price_mrp": 160,
+              "add_compare_price_mrp_bool": true,
+              "add_tax": true,
+              "auto_update_stock": true,
+              "category": "Groceries",
+              "expiry_date": "2024-12-31",
+              "expiry_date_alert": 5,
+              "internal_notes": true,
+              "internal_notes_string": "Store in a cool, dry place",
+              "item_name": "Organic Rice",
+              "kilogram": 5,
+              "low_stock_alert": 10,
+              "modifiers": true,
+              "modifiers_value": 2,
+              "recipes_list": [
+                "Recipe1",
+                "Recipe2"
+              ],
+              "sell_by_fraction": true,
+              "sell_by_unit": false,
+              "selling_price": 150.5,
+              "simple": true,
+              "sku_bool": true,
+              "sku_notes": "Batch 2024",
+              "tag_name": "Premium Quality",
+              "tags": true,
+              "tax_inclusive": false,
+              "tax_value": 18,
+              "track_expiry": true,
+              "track_profit": true,
+              "variant_name": "Basmati"
+            }
+          },
+          "mobileNo": "9080879026",
+          "number_system": "9,999,999",
+          "region_name": "India",
+          "timezone": "Asia/Kolkata",
+          "username": "Naresh"
+        },
+        {
+          "Modifiers": [
+            {
+              "Modifierlist_name": [
+                "Small:10",
+                "Medium:15",
+                "Large:20"
+              ],
+              "Modifiersname": "Size Options"
+            }
+          ],
+          "businessName": "SS Briyani",
+          "businessType": "Restaurant",
+          "country": "",
+          "country_code": "+91",
+          "currency": "INR",
+          "decimal_places": "0",
+          "featuresInterested": "[]",
+          "mobileNo": "9080879026",
+          "number_system": "9,999,999",
+          "region_name": "India",
+          "timezone": "Asia/Kolkata",
+          "username": "Naresh"
+        }
+      ],
+      "email": "nareshkumarv386@gmail.com",
+      "username": "Naresh"
+    },
+    "-ODgC5JFQAKgng5Xv-Pg": {
+      "accounts": [
+        {
+          "CustomerDetails": {
+            "CJ": {
+              "Balance_Advance": "",
+              "Customer_Address": "3 Freetown ",
+              "Customer_Email": "chernohyayahjagitay@gmail.com",
+              "Customer_Name": "CJ",
+              "DateOfAnniversary": "17/12/2024",
+              "DateOfBirth": "17/12/2024",
+              "GST_in": "1234",
+              "Gender": "Male",
+              "Last_Visited": "",
+              "Member_Since": "",
+              "MobileNumber": "78504270",
+              "Notes": "note",
+              "Orders": "",
+              "Transaction_History": "[]"
+            }
+          },
+          "businessName": "Super",
+          "businessType": "Retail",
+          "country": "",
+          "country_code": "+91",
+          "currency": "INR",
+          "decimal_places": "3",
+          "featuresInterested": "[]",
+          "mobileNo": "1234567890",
+          "number_system": "99,99,999",
+          "region_name": "India",
+          "timezone": "Asia/Kolkata",
+          "username": "Xyz"
+        },
+        {
+          "CustomerDetails": {
+            "CJ Twst": {
+              "Balance_Advance": "",
+              "Customer_Address": "3 Freetown ",
+              "Customer_Email": "yijagitay90@yahoo.com",
+              "Customer_Name": "CJ Twst",
+              "DateOfAnniversary": "12/01/2025",
+              "DateOfBirth": "12/01/2025",
+              "GST_in": "bix 1",
+              "Gender": "Male",
+              "Last_Visited": "",
+              "Member_Since": "",
+              "MobileNumber": "78504270",
+              "Notes": "box",
+              "Orders": "",
+              "Transaction_History": "[]"
+            }
+          },
+          "Modifiers": [
+            {
+              "Modifierlist_name": [
+                "Mod 1:5"
+              ],
+              "Modifiersname": "Test Mod"
+            }
+          ],
+          "Staff Management": {
+            "CJ": {
+              "add_expense": true,
+              "admin_receipt": false,
+              "allow_roles_permissions": true,
+              "allow_self_attendance": false,
+              "calculate_as_day": false,
+              "calculate_as_hourly": false,
+              "calculate_as_month": true,
+              "create_business": false,
+              "create_receipt": true,
+              "customer_admin": false,
+              "customer_create": false,
+              "customer_edit": false,
+              "customer_view": false,
+              "date_of_join": "",
+              "edit_receipt": false,
+              "item_management_admin": false,
+              "item_management_create": false,
+              "item_management_edit": false,
+              "item_management_view": false,
+              "manage_banners": false,
+              "manage_business": false,
+              "manage_settings": false,
+              "manage_sf_orders": false,
+              "modify_expense": false,
+              "publish_sf_items": false,
+              "report_admin": false,
+              "report_expired_stocks": false,
+              "report_low_stocks": false,
+              "report_payment_modes": false,
+              "report_profits": false,
+              "report_sales": false,
+              "report_soldby": false,
+              "report_top_customers": false,
+              "return_receipt": false,
+              "sales_addchargers": true,
+              "sales_addtax": false,
+              "sales_alltables": false,
+              "sales_discount": false,
+              "sales_free": false,
+              "sales_gift": false,
+              "sales_givecredit": true,
+              "self_attendance_selection": "Single",
+              "sf_settings": false,
+              "shift_hour": "",
+              "staff_admin": false,
+              "staff_as_custom": false,
+              "staff_as_helper": true,
+              "staff_as_manager": true,
+              "staff_as_partner": false,
+              "staff_attendance_management": false,
+              "staff_email": "chernohyayahjagitay@gmail.com",
+              "staff_manage": false,
+              "staff_mobilenumber": "0023278504570",
+              "staff_name": "CJ",
+              "staff_payroll_manager": false,
+              "staff_salary": "",
+              "track_attendance_salary_": true,
+              "view_all_receipt": true
+            }
+          },
+          "businessName": "Stores",
+          "businessType": "Wholesale",
+          "categories": {
+            "met ": {
+              "color": "",
+              "imagelink": "null",
+              "shape": ""
+            }
+          },
+          "country": "",
+          "country_code": "+91",
+          "currency": "INR",
+          "decimal_places": "2",
+          "featuresInterested": "[]",
+          "ingredient": {
+            "Egg ": {
+              "IngredientName": "Egg ",
+              "UpdatedStock": "10",
+              "createdDate": "2025-01-13 21:00:48",
+              "notes": "",
+              "status": "add",
+              "stockHistoryList": [
+                {
+                  "amount": 10,
+                  "source": "",
+                  "time": "42 minutes ago",
+                  "type": "Added"
+                }
+              ]
+            }
+          },
+          "items": {
+            "Biz Test ": {
+              "Auto_update": false,
+              "Bar_code": "",
+              "Bar_code_bool": false,
+              "Current_Stack": "10",
+              "Purchase_price": "",
+              "Recipe": false,
+              "Transaction_history": [
+                {
+                  "amount": 10,
+                  "dateAndTime": "06 Jan 2025-05:16 PM",
+                  "type": "Added",
+                  "userEmail": "yijagitay90@yahoo.com",
+                  "username": "John"
+                },
+                {
+                  "amount": 0,
+                  "dateAndTime": "06 Jan 2025-05:16 PM",
+                  "type": "Removed",
+                  "userEmail": "example@gmail.com",
+                  "username": "John"
+                }
+              ],
+              "Update_Stack": "10",
+              "add_compare_price_mrp": 0,
+              "add_compare_price_mrp_bool": false,
+              "add_tax": false,
+              "auto_update_stock": true,
+              "category": "met ",
+              "expiry_date": "",
+              "expiry_date_alert": 0,
+              "internal_notes": false,
+              "internal_notes_string": "",
+              "item_color": "#FF444444",
+              "item_image": "",
+              "item_name": "Biz Test ",
+              "item_shape": "circle",
+              "kilogram": 0,
+              "low_stock_alert": 0,
+              "margin": "",
+              "modifiers": false,
+              "modifiers_value": 0,
+              "preventItem": false,
+              "sell_by_fraction": "Sell by Fraction",
+              "sell_by_unit": "Sell by Unit",
+              "selling_price": 60,
+              "simple": false,
+              "sku_bool": false,
+              "sku_notes": "",
+              "stockAvailable": "",
+              "tags": false,
+              "tax_inclusive": false,
+              "tax_value": 0,
+              "track_expiry": false,
+              "track_profit": true,
+              "variant_name": "1kg"
+            },
+            "Man U ": {
+              "Auto_update": false,
+              "Bar_code": "",
+              "Bar_code_bool": false,
+              "Current_Stack": "20",
+              "Purchase_price": "",
+              "Recipe": false,
+              "Transaction_history": [
+                {
+                  "amount": 20,
+                  "dateAndTime": "06 Jan 2025-05:22 PM",
+                  "type": "Added",
+                  "userEmail": "yijagitay90@yahoo.com",
+                  "username": "John"
+                },
+                {
+                  "amount": 0,
+                  "dateAndTime": "06 Jan 2025-05:22 PM",
+                  "type": "Removed",
+                  "userEmail": "example@gmail.com",
+                  "username": "John"
+                }
+              ],
+              "Update_Stack": "20",
+              "add_compare_price_mrp": 0,
+              "add_compare_price_mrp_bool": false,
+              "add_tax": false,
+              "auto_update_stock": true,
+              "category": "met ",
+              "expiry_date": "06/Jan/2025",
+              "expiry_date_alert": 0,
+              "internal_notes": false,
+              "internal_notes_string": "",
+              "item_color": "#FF444444",
+              "item_image": "",
+              "item_name": "Man U ",
+              "item_shape": "",
+              "kilogram": 0,
+              "low_stock_alert": 10,
+              "margin": "",
+              "modifiers": false,
+              "modifiers_value": 0,
+              "preventItem": false,
+              "sell_by_fraction": "Sell by Fraction",
+              "sell_by_unit": "",
+              "selling_price": 120,
+              "simple": false,
+              "sku_bool": false,
+              "sku_notes": "",
+              "stockAvailable": "",
+              "tags": false,
+              "tax_inclusive": false,
+              "tax_value": 0,
+              "track_expiry": true,
+              "track_profit": true,
+              "variant_name": "2kg"
+            },
+            "Mango": {
+              "Auto_update": false,
+              "Bar_code": "",
+              "Bar_code_bool": false,
+              "Current_Stack": "0",
+              "Purchase_price": "",
+              "Recipe": false,
+              "Transaction_history": [
+                {
+                  "amount": 0,
+                  "dateAndTime": "13 Jan 2025-09:02 PM",
+                  "type": "Removed",
+                  "userEmail": "example@gmail.com",
+                  "username": "John"
+                }
+              ],
+              "Update_Stack": "-",
+              "add_compare_price_mrp": 0,
+              "add_compare_price_mrp_bool": false,
+              "add_tax": false,
+              "auto_update_stock": false,
+              "category": "met ",
+              "expiry_date": "",
+              "expiry_date_alert": 0,
+              "internal_notes": false,
+              "internal_notes_string": "",
+              "item_color": "#FF444444",
+              "item_image": "",
+              "item_name": "Mango",
+              "item_shape": "circle",
+              "kilogram": 0,
+              "low_stock_alert": 0,
+              "margin": "",
+              "modifiers": false,
+              "modifiers_value": 0,
+              "preventItem": false,
+              "sell_by_fraction": "Sell by Fraction",
+              "sell_by_unit": "Sell by Unit",
+              "selling_price": 60,
+              "simple": true,
+              "sku_bool": false,
+              "sku_notes": "",
+              "stockAvailable": "",
+              "tags": false,
+              "tax_inclusive": false,
+              "tax_value": 0,
+              "track_expiry": false,
+              "track_profit": false,
+              "variant_name": ""
+            },
+            "Wolly ": {
+              "Auto_update": false,
+              "Bar_code": "",
+              "Bar_code_bool": false,
+              "Current_Stack": "0",
+              "Purchase_price": "",
+              "Recipe": false,
+              "Transaction_history": [
+                {
+                  "amount": 0,
+                  "dateAndTime": "06 Jan 2025-11:11 PM",
+                  "type": "Removed",
+                  "userEmail": "example@gmail.com",
+                  "username": "John"
+                }
+              ],
+              "Update_Stack": "",
+              "add_compare_price_mrp": 0,
+              "add_compare_price_mrp_bool": false,
+              "add_tax": false,
+              "auto_update_stock": false,
+              "category": "met ",
+              "expiry_date": "",
+              "expiry_date_alert": 0,
+              "internal_notes": false,
+              "internal_notes_string": "",
+              "item_color": "#FF444444",
+              "item_image": "",
+              "item_name": "Wolly ",
+              "item_shape": "",
+              "kilogram": 0,
+              "low_stock_alert": 0,
+              "margin": "",
+              "modifiers": false,
+              "modifiers_value": 0,
+              "preventItem": false,
+              "sell_by_fraction": "Sell by Fraction",
+              "sell_by_unit": "",
+              "selling_price": 60,
+              "simple": true,
+              "sku_bool": false,
+              "sku_notes": "",
+              "stockAvailable": "",
+              "tags": false,
+              "tax_inclusive": false,
+              "tax_value": 0,
+              "track_expiry": false,
+              "track_profit": false,
+              "variant_name": ""
+            }
+          },
+          "mobileNo": "123456789",
+          "number_system": "99,99,999",
+          "region_name": "India",
+          "timezone": "Asia/Kolkata",
+          "username": "Xyz"
+        },
+        {
+          "businessName": "Hello",
+          "businessType": "Wholesale",
+          "country": "",
+          "country_code": "+91",
+          "currency": "INR",
+          "decimal_places": "0",
+          "featuresInterested": "[]",
+          "mobileNo": "12348466464",
+          "number_system": "9,999,999",
+          "region_name": "India",
+          "timezone": "Asia/Kolkata",
+          "username": "Xyz"
+        }
+      ],
+      "email": "yijagitay90@yahoo.com",
+      "username": "Xyz"
+    },
+    "-OF_f2Bo132RodOtlKUa": {
+      "email": "ponsselvi2@gmail.com",
+      "username": ""
+    },
+    "-OGVG62HFdtN1xd67eT6": {
+      "accounts": [
+        {
+          "businessName": "Nithish",
+          "businessType": "Restaurant",
+          "categories": {
+            "Mobile Phone": {
+              "color": "",
+              "imagelink": "null",
+              "shape": ""
+            }
+          },
+          "country": "",
+          "country_code": "+91",
+          "currency": "INR",
+          "decimal_places": "3",
+          "featuresInterested": "[I want generate bills, I want print bills, I want to track daily sales, I want to track profits, I want to track inventory, I want to track expense, I want to track staff attendance]",
+          "mobileNo": "9443231650",
+          "number_system": "99,99,999",
+          "region_name": "",
+          "timezone": "Asia/Kolkata",
+          "username": "Nithish"
+        }
+      ],
+      "email": "nithishk2315@gmail.com",
+      "username": "Nithish"
+    },
+    "-OIfdMofI1orMsDSSIJt": {
+      "accounts": [
+        {
+          "Modifiers": [
+            {
+              "Modifierlist_name": [
+                "Testmodify:2000",
+                "SampleModify:4000"
+              ],
+              "Modifiersname": "Modifier-1"
+            },
+            {
+              "Modifierlist_name": [
+                "modify:200"
+              ],
+              "Modifiersname": "Modifier-2"
+            }
+          ],
+          "businessName": "Nithish",
+          "businessType": "Fast food",
+          "categories": {
+            "Fruit": {
+              "color": "",
+              "imagelink": "null",
+              "shape": ""
+            }
+          },
+          "country": "",
+          "country_code": "+91",
+          "currency": "INR",
+          "decimal_places": "3",
+          "featuresInterested": "[I want generate bills, I want print bills, I want to track daily sales, I want to track profits, I want to track inventory, I want to track expense, I want to track staff attendance]",
+          "mobileNo": "9443231650",
+          "number_system": "99,99,999",
+          "region_name": "India",
+          "timezone": "Asia/Kolkata",
+          "username": "Nithish"
+        }
+      ],
+      "email": "nithish1505@gmail.com",
+      "username": "Nithish"
+    }
+  }
+}
