@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { Navbar, NavbarBrand, NavbarContent, NavbarItem, Link, Button } from "@heroui/react";
 import { motion } from "framer-motion";
-
 export const NavBar = () => {
   const [hoveredItem, setHoveredItem] = useState(null);
   
@@ -13,21 +12,23 @@ export const NavBar = () => {
 
   return (
     <Navbar className="py-4 backdrop-blur-md bg-white/70 border-b border-gray-100">
-      <NavbarBrand>
-        <motion.div
-          initial={{ opacity: 0, y: -10 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.5 }}
+       <NavbarBrand>
+    <Link href="/" className="cursor-pointer">
+      <motion.div
+        initial={{ opacity: 0, y: -10 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.5 }}
+      >
+        <motion.p 
+          className="font-extrabold text-transparent text-xl bg-clip-text bg-gradient-to-r from-blue-600 to-purple-600"
+          whileHover={{ scale: 1.05 }}
+          transition={{ type: "spring", stiffness: 400, damping: 10 }}
         >
-          <motion.p 
-            className="font-extrabold text-transparent text-xl bg-clip-text bg-gradient-to-r from-blue-600 to-purple-600"
-            whileHover={{ scale: 1.05 }}
-            transition={{ type: "spring", stiffness: 400, damping: 10 }}
-          >
-            BIZSTACK
-          </motion.p>
-        </motion.div>
-      </NavbarBrand>
+          BIZSTACK
+        </motion.p>
+      </motion.div>
+    </Link>
+  </NavbarBrand>
       
       <NavbarContent className="hidden sm:flex gap-8" justify="center">
         {navItems.map((item, index) => (
