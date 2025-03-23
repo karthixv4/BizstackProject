@@ -1,7 +1,7 @@
 import { useState, useEffect, useRef } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { 
-  Search, ChevronDown, ChevronUp, PlusCircle, 
+import {
+  Search, ChevronDown, ChevronUp, PlusCircle,
   Trash2, X, Filter, Edit
 } from "lucide-react";
 import {
@@ -28,6 +28,7 @@ import {
   ModalBody,
   ModalFooter
 } from "@heroui/react";
+import ChartViewButton from "./DataVisualization";
 
 const containerVariants = {
   hidden: { opacity: 0 },
@@ -56,7 +57,7 @@ export default function DataEditor({ data, categories, setCategories, headers, o
   const [activeCategory, setActiveCategory] = useState("all");
   const [visibleColumns, setVisibleColumns] = useState({});
   const { isOpen: isColumnSelectorOpen, onOpen: onColumnSelectorOpen, onClose: onColumnSelectorClose } = useDisclosure();
-  
+
   // Editable state
   const [editingCell, setEditingCell] = useState({ row: null, col: null, category: null });
   const [editingValue, setEditingValue] = useState("");
@@ -102,19 +103,19 @@ export default function DataEditor({ data, categories, setCategories, headers, o
 
     const searchTermLower = searchTerm.toLowerCase();
     const filtered = {};
-    
+
     Object.entries(categories).forEach(([category, items]) => {
       const filteredItems = items.filter(item => {
-        return Object.values(item).some(value => 
+        return Object.values(item).some(value =>
           value && String(value).toLowerCase().includes(searchTermLower)
         );
       });
-      
+
       if (filteredItems.length > 0) {
         filtered[category] = filteredItems;
       }
     });
-    
+
     setFilteredCategoriesData(filtered);
   }, [searchTerm, categories]);
 
@@ -149,10 +150,10 @@ export default function DataEditor({ data, categories, setCategories, headers, o
 
   const saveEditedHeader = () => {
     if (!editingHeader || editingHeaderValue.trim() === "") return;
-    
+
     // Create new headers array with updated name
     const newHeaders = headers.map(h => h === editingHeader ? editingHeaderValue : h);
-    
+
     // Update all categories data with new header name
     const newCategories = {};
     Object.entries(categories).forEach(([category, items]) => {
@@ -167,7 +168,7 @@ export default function DataEditor({ data, categories, setCategories, headers, o
         return newItem;
       });
     });
-    
+
     // Update visible columns
     const newVisibleColumns = { ...visibleColumns };
     newVisibleColumns[editingHeaderValue] = visibleColumns[editingHeader];
@@ -175,7 +176,7 @@ export default function DataEditor({ data, categories, setCategories, headers, o
       delete newVisibleColumns[editingHeader];
     }
     setVisibleColumns(newVisibleColumns);
-    
+
     // Update state
     setCategories(newCategories);
     setEditingHeader(null);
@@ -189,15 +190,15 @@ export default function DataEditor({ data, categories, setCategories, headers, o
 
   const saveEditedCell = () => {
     if (editingCell.row === null || editingCell.col === null) return;
-    
+
     const { category, row, col } = editingCell;
     const newCategories = { ...categories };
-    
+
     if (newCategories[category] && newCategories[category][row]) {
       newCategories[category][row][col] = editingValue;
       setCategories(newCategories);
     }
-    
+
     setEditingCell({ row: null, col: null, category: null });
   };
 
@@ -215,47 +216,47 @@ export default function DataEditor({ data, categories, setCategories, headers, o
       acc[header] = "";
       return acc;
     }, {});
-    
+
     // Set category value
     const categoryHeader = originalHeaders.find(h => h.toLowerCase().includes("category")) || "Category";
     newItem[categoryHeader] = category;
-    
+
     if (!newCategories[category]) {
       newCategories[category] = [];
     }
-    
+
     newCategories[category].push(newItem);
     setCategories(newCategories);
   };
 
   const addNewVariant = (category, itemIndex) => {
     if (!categories[category]?.[itemIndex]) return;
-    
+
     const newCategories = { ...categories };
     const baseItem = { ...newCategories[category][itemIndex] };
-    
+
     // Find the variant header
     const variantHeader = originalHeaders.find(h => h.toLowerCase().includes("variant")) || "Variant";
-    
+
     // Create a new variant entry
     const newVariant = { ...baseItem };
     newVariant[variantHeader] = "";
-    
+
     newCategories[category].splice(itemIndex + 1, 0, newVariant);
     setCategories(newCategories);
   };
 
   const removeItem = (category, itemIndex) => {
     const newCategories = { ...categories };
-    
+
     if (newCategories[category]) {
       newCategories[category].splice(itemIndex, 1);
-      
+
       // Remove the category if it's empty
       if (newCategories[category].length === 0) {
         delete newCategories[category];
       }
-      
+
       setCategories(newCategories);
     }
   };
@@ -283,7 +284,7 @@ export default function DataEditor({ data, categories, setCategories, headers, o
 
   const toggleTrackStock = (category, itemIndex) => {
     const newCategories = { ...categories };
-    
+
     if (newCategories[category] && newCategories[category][itemIndex]) {
       const item = newCategories[category][itemIndex];
       item.TrackStock = item.TrackStock === true ? false : true;
@@ -294,7 +295,7 @@ export default function DataEditor({ data, categories, setCategories, headers, o
   // Function to clean up data by removing empty rows when importing
   const cleanImportedData = (data) => {
     const cleanedData = {};
-    
+
     Object.entries(data).forEach(([category, items]) => {
       // Filter out rows where all fields are empty
       const nonEmptyItems = items.filter(item => {
@@ -302,30 +303,30 @@ export default function DataEditor({ data, categories, setCategories, headers, o
           return value !== "" && value !== null && value !== undefined;
         });
       });
-      
+
       if (nonEmptyItems.length > 0) {
         cleanedData[category] = nonEmptyItems;
       }
     });
-    
+
     return cleanedData;
   };
 
   const getCategoriesDataToShow = () => {
     // Use filtered data if search term is active, otherwise use all categories
     const dataToFilter = searchTerm ? filteredCategoriesData : categories;
-    
+
     if (activeCategory === "all") {
       return dataToFilter;
     }
-    
+
     // Check if the active category exists in the filtered data
     if (dataToFilter[activeCategory]) {
       return {
         [activeCategory]: dataToFilter[activeCategory]
       };
     }
-    
+
     // Return empty object if the category doesn't exist in filtered data
     return {};
   };
@@ -335,7 +336,7 @@ export default function DataEditor({ data, categories, setCategories, headers, o
   };
 
   return (
-    <motion.div 
+    <motion.div
       className="mt-4"
       variants={containerVariants}
       initial="hidden"
@@ -368,7 +369,7 @@ export default function DataEditor({ data, categories, setCategories, headers, o
             ))}
           </div>
         </div>
-        
+
         <div className="flex-1 md:max-w-xs">
           <div className="text-sm font-medium mb-2">Search Items</div>
           <Input
@@ -381,18 +382,18 @@ export default function DataEditor({ data, categories, setCategories, headers, o
           />
         </div>
       </div>
-      
+
       {/* Column Visibility */}
       <div className="mb-6 px-4">
-        <Dropdown 
-          isOpen={isColumnSelectorOpen} 
+        <Dropdown
+          isOpen={isColumnSelectorOpen}
           onOpenChange={isOpen => isOpen ? onColumnSelectorOpen() : onColumnSelectorClose()}
           closeOnSelect={false}
         >
           <DropdownTrigger>
-            <Button 
-              variant="flat" 
-              color="default" 
+            <Button
+              variant="flat"
+              color="default"
               startContent={<Filter size={16} />}
               endContent={isColumnSelectorOpen ? <ChevronUp size={16} /> : <ChevronDown size={16} />}
               size="sm"
@@ -400,7 +401,7 @@ export default function DataEditor({ data, categories, setCategories, headers, o
               Column Visibility
             </Button>
           </DropdownTrigger>
-          <DropdownMenu 
+          <DropdownMenu
             aria-label="Column visibility options"
             className="p-2"
             ref={dropdownMenuRef}
@@ -421,17 +422,17 @@ export default function DataEditor({ data, categories, setCategories, headers, o
               <DropdownItem
                 key={header}
                 startContent={
-                  <div className={`w-4 h-4 rounded ${visibleColumns[header] ? 'bg-primary' : 'bg-gray-200'}`} 
-                       onClick={(e) => toggleColumnVisibility(header, e)}></div>
+                  <div className={`w-4 h-4 rounded ${visibleColumns[header] ? 'bg-primary' : 'bg-gray-200'}`}
+                    onClick={(e) => toggleColumnVisibility(header, e)}></div>
                 }
                 endContent={
-                  <Button 
-                    color="default" 
-                    variant="light" 
-                    size="sm" 
-                    isIconOnly 
-                    onPress={(e) => { 
-                      e.stopPropagation(); 
+                  <Button
+                    color="default"
+                    variant="light"
+                    size="sm"
+                    isIconOnly
+                    onPress={(e) => {
+                      e.stopPropagation();
                       handleEditHeader(header);
                     }}
                   >
@@ -446,16 +447,17 @@ export default function DataEditor({ data, categories, setCategories, headers, o
           </DropdownMenu>
         </Dropdown>
       </div>
-      
-      {/* Button to add new category */}
-      <div className="mb-4 px-4">
-        <Button color="primary" startContent={<PlusCircle size={16} />} onPress={onNewCategoryOpen}>
-          Add Category
-        </Button>
-      </div>
-      
+
+       {/* Buttons for adding category and viewing charts */}
+       <div className="mb-4 px-4 flex items-center">
+          <Button color="primary" startContent={<PlusCircle size={16} />} onPress={onNewCategoryOpen}>
+            Add Category
+          </Button>
+          <ChartViewButton categories={categories} />
+        </div>
+
       {/* Categories and Items */}
-      <motion.div 
+      <motion.div
         className="space-y-6 px-4 pb-4"
         variants={staggerVariants}
         initial="hidden"
@@ -463,7 +465,7 @@ export default function DataEditor({ data, categories, setCategories, headers, o
       >
         <AnimatePresence>
           {Object.entries(getCategoriesDataToShow()).map(([category, items]) => (
-            <motion.div 
+            <motion.div
               key={category}
               variants={itemVariants}
               initial="hidden"
@@ -473,7 +475,7 @@ export default function DataEditor({ data, categories, setCategories, headers, o
               className="border border-gray-200 rounded-xl shadow-sm overflow-hidden bg-white"
             >
               <div className="flex justify-between items-center p-4 bg-gray-50 border-b border-gray-200">
-                <div 
+                <div
                   className="flex items-center cursor-pointer"
                   onClick={() => toggleCategoryExpansion(category)}
                 >
@@ -487,18 +489,18 @@ export default function DataEditor({ data, categories, setCategories, headers, o
                   <Chip size="sm" className="ml-2">{items.length} items</Chip>
                 </div>
                 <div className="flex gap-2">
-                  <Button 
-                    color="primary" 
-                    size="sm" 
+                  <Button
+                    color="primary"
+                    size="sm"
                     startContent={<PlusCircle size={16} />}
                     onPress={() => addNewItem(category)}
                   >
                     Add Item
                   </Button>
-                  <Button 
-                    color="danger" 
-                    variant="light" 
-                    size="sm" 
+                  <Button
+                    color="danger"
+                    variant="light"
+                    size="sm"
                     startContent={<Trash2 size={16} />}
                     onPress={() => removeCategory(category)}
                   >
@@ -506,7 +508,7 @@ export default function DataEditor({ data, categories, setCategories, headers, o
                   </Button>
                 </div>
               </div>
-              
+
               <AnimatePresence>
                 {expandedCategories[category] && (
                   <motion.div
@@ -517,7 +519,7 @@ export default function DataEditor({ data, categories, setCategories, headers, o
                     className="overflow-hidden"
                   >
                     <div className="overflow-x-auto">
-                      <Table 
+                      <Table
                         aria-label={`Items in ${category} category`}
                         removeWrapper
                         selectionMode="none"
@@ -542,14 +544,14 @@ export default function DataEditor({ data, categories, setCategories, headers, o
                               {getVisibleHeaders().map((header) => (
                                 <TableCell key={`${itemIndex}-${header}`}>
                                   {header === "TrackStock" ? (
-                                    <Switch 
+                                    <Switch
                                       checked={item[header] === true}
                                       onChange={() => toggleTrackStock(category, itemIndex)}
                                       size="sm"
                                     />
-                                  ) : editingCell.row === itemIndex && 
-                                     editingCell.col === header && 
-                                     editingCell.category === category ? (
+                                  ) : editingCell.row === itemIndex &&
+                                    editingCell.col === header &&
+                                    editingCell.category === category ? (
                                     <Input
                                       type="text"
                                       value={editingValue}
@@ -561,7 +563,7 @@ export default function DataEditor({ data, categories, setCategories, headers, o
                                       autoFocus
                                     />
                                   ) : (
-                                    <div 
+                                    <div
                                       className="py-1 px-1 hover:bg-blue-50 cursor-pointer rounded"
                                       onClick={() => handleEditCell(category, itemIndex, header, item[header])}
                                     >
@@ -572,9 +574,9 @@ export default function DataEditor({ data, categories, setCategories, headers, o
                               ))}
                               <TableCell className="text-right">
                                 <div className="flex justify-end gap-2">
-                                  <Button 
-                                    color="primary" 
-                                    variant="flat" 
+                                  <Button
+                                    color="primary"
+                                    variant="flat"
                                     size="sm"
                                     isIconOnly
                                     onPress={() => addNewVariant(category, itemIndex)}
@@ -582,9 +584,9 @@ export default function DataEditor({ data, categories, setCategories, headers, o
                                   >
                                     <PlusCircle size={14} />
                                   </Button>
-                                  <Button 
-                                    color="danger" 
-                                    variant="flat" 
+                                  <Button
+                                    color="danger"
+                                    variant="flat"
                                     size="sm"
                                     isIconOnly
                                     onPress={() => removeItem(category, itemIndex)}
@@ -626,7 +628,7 @@ export default function DataEditor({ data, categories, setCategories, headers, o
         <ModalContent>
           <ModalHeader className="flex flex-col gap-1">Add New Category</ModalHeader>
           <ModalBody>
-            <Input 
+            <Input
               label="Category Name"
               placeholder="Enter category name"
               value={newCategoryName}
@@ -655,7 +657,7 @@ export default function DataEditor({ data, categories, setCategories, headers, o
         <ModalContent>
           <ModalHeader className="flex flex-col gap-1">Edit Column Header</ModalHeader>
           <ModalBody>
-            <Input 
+            <Input
               label="Header Name"
               placeholder="Enter header name"
               value={editingHeaderValue}

@@ -1,6 +1,6 @@
 import { useState, useRef } from "react";
 import { motion } from "framer-motion";
-import { Upload, XCircle, X } from "lucide-react";
+import { Upload, X } from "lucide-react";
 import * as XLSX from "xlsx";
 import { Button, Card, CardHeader, CardBody } from "@heroui/react";
 
@@ -17,16 +17,11 @@ const itemVariants = {
 };
 
 export default function Try({ onDataExtracted }) {
-  // File handling state
+
+  console.log("HELLO INSIDE TRY")
   const [file, setFile] = useState(null);
   const [loading, setLoading] = useState(false);
   const fileInputRef = useRef(null);
-  
-  // Data state - we'll still keep these but pass them to the parent when extracted
-  const [data, setData] = useState([]);
-  const [categories, setCategories] = useState({});
-  const [headers, setHeaders] = useState([]);
-  const [originalHeaders, setOriginalHeaders] = useState([]);
 
   const handleFileChange = (event) => {
     const uploadedFile = event.target.files?.[0];
@@ -49,10 +44,6 @@ export default function Try({ onDataExtracted }) {
 
   const handleRemoveFile = () => {
     setFile(null);
-    setData([]);
-    setHeaders([]);
-    setOriginalHeaders([]);
-    setCategories({});
     if (fileInputRef.current) fileInputRef.current.value = "";
   };
 
@@ -77,16 +68,16 @@ export default function Try({ onDataExtracted }) {
 
         // Process headers
         const newHeaders = rawData[0].map((header) => header ? header.trim() : `Column${Math.random().toString(36).substr(2, 5)}`);
-        setHeaders(newHeaders);
-        setOriginalHeaders(newHeaders);
 
-        // Format data
-        let formattedData = rawData.slice(1).map((row) => {
-          return newHeaders.reduce((acc, key, index) => {
-            acc[key] = row[index] ?? "";
-            return acc;
-          }, {});
-        });
+        // Format data and filter out empty rows
+        let formattedData = rawData.slice(1)
+          .filter(row => row.some(cell => cell !== undefined && cell !== null && cell !== ""))
+          .map((row) => {
+            return newHeaders.reduce((acc, key, index) => {
+              acc[key] = row[index] ?? "";
+              return acc;
+            }, {});
+          });
         
         // Categorize data
         const categoryHeader = newHeaders.find(h => h.toLowerCase().includes("category")) || "Category";
@@ -97,13 +88,8 @@ export default function Try({ onDataExtracted }) {
           if (!categorizedData[category]) categorizedData[category] = [];
           categorizedData[category].push(item);
         });
-
-        // Set state (useful to keep for potential future enhancements)
-        setData(formattedData);
-        setCategories(categorizedData);
         
         // Call the parent component's function to handle the extracted data
-        // This will trigger the modal expansion and display the DataEditor
         onDataExtracted({
           data: formattedData,
           categories: categorizedData,

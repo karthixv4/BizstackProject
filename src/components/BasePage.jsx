@@ -19,12 +19,12 @@ const BasePage = () => {
           whileTap={{ scale: 0.95 }}
           className="w-full md:w-1/2"
         >
-          <Card className="h-64 bg-blue-50 flex flex-col justify-between p-6 cursor-pointer" onPress={() => handleRedirect('/all/resources')}>
+          <Card className="h-64 bg-blue-50 flex flex-col justify-between p-6 cursor-pointer" onPress={() => handleRedirect('/admin/base')}>
             <div>
               <h2 className="text-xl font-bold mb-2">Admin Panel</h2>
               <p className="text-gray-600">Takes you to admin all users page</p>
             </div>
-            <Button variant="primary" className="w-full" onPress={() => handleRedirect('/all/resources')}>Visit</Button>
+            <Button variant="primary" className="w-full" onPress={() => handleRedirect('/admin/base')}>Visit</Button>
           </Card>
         </motion.div>
 

@@ -11,7 +11,7 @@ import UserDetailModal from "./UserDetailModal"; // Import the modal component
 
 // Constants
 const STATUS_COLOR_MAP = {
-  Blocked: "error",
+  Blocked: "danger",
   Unblocked: "success",
 };
 

@@ -9,6 +9,7 @@ import  AllUsers from './components/admin/AllUsers'
 import UserBasePage from './components/user/UserBasePage';
 import ImportData from './components/user/Try';
 import BasePage from './components/BasePage';
+import BizstackAdmin from './components/admin/AdminBasePage';
 function App() {
 
   return (
@@ -21,6 +22,7 @@ function App() {
     <Route path="/user/base" element={<UserBasePage />} />
     <Route path="/user/import" element={<ImportData />} />
     <Route path='/' element={<BasePage />} />
+    <Route path='/admin/base' element={<BizstackAdmin />} />
     </Routes>
     {/* <ExcelHandler /> */}
     {/* <Loader /> */}
